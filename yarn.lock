@@ -811,6 +811,11 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
+jekyll@^3.0.0-beta1:
+  version "3.0.0-beta1"
+  resolved "https://registry.yarnpkg.com/jekyll/-/jekyll-3.0.0-beta1.tgz#32749f03004cff217bf29988f6e4420606479ff9"
+  integrity sha512-aEochTAoY//2y10FPR+HDbEIdvPhH/uE94Umc8+fkS0EZUoRIbD7tTZ81QZa2/mk6qcMLzeM7lXjvOaLT6ALig==
+
 jsonc-parser@^3.2.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.2.1.tgz#031904571ccf929d7670ee8c547545081cb37f1a"

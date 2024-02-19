@@ -4,7 +4,6 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import vuetify from './plugins/vuetify'
-import post from './post.vue'
 
 export default {
   extends: DefaultTheme,
