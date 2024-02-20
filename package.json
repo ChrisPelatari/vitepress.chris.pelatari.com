@@ -13,10 +13,11 @@
     "dev": "vitepress dev blog --port 8484",
     "build": "vitepress build blog",
     "preview": "vitepress preview blog --port 8484",
-    "version": "node ./version.js",
-    "v": "node ./version.js"
+    "version": "node ./version.mjs",
+    "v": "node ./version.mjs"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47"
-  }
+  },
+  "version": "2.2.220"
 }
