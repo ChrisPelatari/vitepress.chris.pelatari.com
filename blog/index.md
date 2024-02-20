@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "Blue Fenix"
-  tagline: "professional geek ramblings"
-  image: 
+  name: 'Blue Fenix'
+  tagline: 'professional geek ramblings'
+  image:
     src: '/images/IMG_1996.png'
-    alt: "Blue Fenix"
+    alt: 'Blue Fenix'
   actions:
     - theme: brand
       text: Markdown Examples
@@ -26,3 +26,9 @@ features:
   - title: How it's been
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<style>
+img.VPImage.image-src {
+  border-radius: 50%;
+}
+</style>
