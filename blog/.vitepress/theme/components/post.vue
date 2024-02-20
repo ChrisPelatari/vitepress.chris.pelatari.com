@@ -1,11 +1,9 @@
 <template>
   <div class="VPPage">
     <v-container>
-      <v-sheet class="rounded-lg pa-3">
-        <h2 class="text-h2">{{ frontmatter.title }}</h2>
-        <p class="text-caption" v-if="frontmatter.author">{{ frontmatter.author }}</p>
-        <Content />
-      </v-sheet>
+      <h3 class="text-h3">{{ frontmatter.title }}</h3>
+      <p class="text-caption" v-if="frontmatter.author">{{ frontmatter.author }}</p>
+      <Content />
     </v-container>
   </div>
 </template>
