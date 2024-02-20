@@ -3,7 +3,6 @@
     "@types/node": "^20.11.17",
     "feed": "^4.2.2",
     "fs": "^0.0.1-security",
-    "jekyll": "^3.0.0-beta1",
     "path": "^0.12.7",
     "unplugin-auto-import": "^0.17.5",
     "vite-plugin-vuetify": "^2.0.1",
@@ -11,9 +10,9 @@
     "vuetify": "^3.5.4"
   },
   "scripts": {
-    "dev": "vitepress dev posts --port 8484",
-    "posts:build": "vitepress build posts",
-    "preview": "vitepress preview posts --port 8484"
+    "dev": "vitepress dev blog --port 8484",
+    "build": "vitepress build blog",
+    "preview": "vitepress preview blog --port 8484"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47"
