@@ -28,7 +28,7 @@ phone and was able to take a picture with Brad anyways (I'm the short one):
 
 <img src="/assets/images/02-16-05_1936.jpg" />
 
-This is also where I got my <a href="http://www.chrisfrazier.net/Blog/archive/2005/02/16/724.aspx">Channel 9 guy</a> along with a nice smattering of other cool swag. Sorry, <a href="http://radio.weblogs.com/0001011/">Scoble</a>, it was just a joke tho - I 
+This is also where I got my [Channel 9 guy](/posts/2005-02-17-Channel-9-guy) along with a nice smattering of other cool swag. Sorry, <a href="http://radio.weblogs.com/0001011/">Scoble</a>, it was just a joke tho - I 
 thought it would be more appropriate to write the ransom note in 1337 than have 
 both of my subscribers download a bunch of newspaper-clipped letter images. I 
 still want my million, tho :)
