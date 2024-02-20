@@ -26,7 +26,7 @@ I brought my digital camera, but being the jerk that I am, didn't check to
 see if the batteries were working first (doh!). Thankfully, I've got a camera 
 phone and was able to take a picture with Brad anyways (I'm the short one):
 
-<img src="/assets/images/02-16-05_1936.JPG" />
+<img src="/assets/images/02-16-05_1936.jpg" />
 
 This is also where I got my <a href="http://www.chrisfrazier.net/Blog/archive/2005/02/16/724.aspx">Channel 9 guy</a> along with a nice smattering of other cool swag. Sorry, <a href="http://radio.weblogs.com/0001011/">Scoble</a>, it was just a joke tho - I 
 thought it would be more appropriate to write the ransom note in 1337 than have 
