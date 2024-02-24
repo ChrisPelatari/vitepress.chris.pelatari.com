@@ -3,7 +3,7 @@
     <v-container>
       <h3 class="text-h3">{{ frontmatter.title }}</h3>
       <p class="text-caption" v-if="frontmatter.author">{{ frontmatter.author }}</p>
-      <p class="text-caption">{{ new Date(page.filePath.split('/').pop().slice(0, 10)).toLocaleString() }}</p>
+      <p class="text-caption">{{ new Date(page.filePath.split('/').pop().slice(0, 10)).toLocaleDateString() }}</p>
       <p class="text-caption" v-if="frontmatter.permalink">{{ frontmatter.permalink }}</p>
       <Content />
     </v-container>
