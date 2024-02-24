@@ -38,7 +38,7 @@ h1 {
 }
 
 img {
-  max-width: 75%;
+  max-width: 80%;
   height: auto;
 }
 </style>
