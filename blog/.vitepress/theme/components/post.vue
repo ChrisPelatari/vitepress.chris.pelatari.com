@@ -36,7 +36,7 @@ h1 {
   text-decoration: underline;
 }
 
-/* only limit the size on large screens */
+/* only limit img size on large screens */
 @media (min-width: 800px) {
   img {
     max-width: 80%;
