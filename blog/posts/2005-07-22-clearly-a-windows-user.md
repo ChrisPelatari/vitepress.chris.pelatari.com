@@ -3,7 +3,6 @@ layout: post
 title: Clearly a windows user...
 date: 2005-07-22 19:30
 author: chrispelatari
-comments: true
 ---
 
 <p><img alt="" hspace="0" src="http://www.resistcomfort.com/typing.gif" align="baseline" border="0" /></p>

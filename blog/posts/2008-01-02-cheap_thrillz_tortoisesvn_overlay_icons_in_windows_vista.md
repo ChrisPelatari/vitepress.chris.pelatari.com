@@ -3,7 +3,6 @@ layout: post
 title: Cheap Thrillz&#58; TortoiseSVN overlay icons in Windows Vista
 date: 2008-01-02 01:55
 author: chrispelatari
-comments: true
 ---
 <div>
 

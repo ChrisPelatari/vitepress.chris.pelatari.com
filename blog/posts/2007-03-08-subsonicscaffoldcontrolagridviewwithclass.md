@@ -3,7 +3,6 @@ layout: post
 title: SubSonic Scaffold control - a GridView with Class
 date: 2007-03-08 15:40
 author: chrispelatari
-comments: true
 categories: [aspnet,SubSonic]
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: Gmail Delete Button
 date: 2006-01-20 07:18
 author: chrispelatari
-comments: true
 ---
 
 <p>Broseph.</p>

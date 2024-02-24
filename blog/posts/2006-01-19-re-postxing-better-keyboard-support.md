@@ -3,7 +3,6 @@ layout: post
 title: RE&#58; PostXING&#58; Better Keyboard Support
 date: 2006-01-19 19:45
 author: chrispelatari
-comments: true
 ---
 
 <p>Heh, oops. This is what happens when the tool that you are building is the

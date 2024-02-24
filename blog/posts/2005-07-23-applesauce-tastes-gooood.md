@@ -3,7 +3,6 @@ layout: post
 title: Applesauce tastes gooood.
 date: 2005-07-23 23:20
 author: chrispelatari
-comments: true
 ---
 <p>Indeed. </p>
 <p><a href="/audio/Ethan072305.mp3">Applesause tastes 

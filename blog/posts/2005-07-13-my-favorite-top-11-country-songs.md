@@ -3,7 +3,6 @@ layout: post
 title: My favorite Top 11 Country Songs
 date: 2005-07-13 19:41
 author: chrispelatari
-comments: true
 ---
 
 <p>GET-R-DONE!<br /> <br />My favorite Top 11 Country Songs</p>

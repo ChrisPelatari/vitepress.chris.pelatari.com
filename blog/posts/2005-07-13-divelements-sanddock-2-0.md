@@ -3,7 +3,6 @@ layout: post
 title: Divelements SandDock 2.0
 date: 2005-07-13 16:48
 author: chrispelatari
-comments: true
 ---
 <a href="http://divil.co.uk/net/controls/sanddock/">Was just released</a>. In
 the newsletter, it said that you can use a DocumentContainer (tabs) outside of a

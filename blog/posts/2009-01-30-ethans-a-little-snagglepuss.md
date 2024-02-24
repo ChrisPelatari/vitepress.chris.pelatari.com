@@ -3,7 +3,6 @@ layout: post
 title: Ethan's a little snagglepuss!
 date: 2009-01-30 16:17
 author: chrispelatari
-comments: true
 ---
 
 <div style="text-align:left;padding:3px;">

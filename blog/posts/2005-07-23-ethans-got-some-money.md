@@ -3,7 +3,6 @@ layout: post
 title: Ethan's got some money...
 date: 2005-07-23 22:17
 author: chrispelatari
-comments: true
 ---
 <a href="http://chrispelatari.files.wordpress.com/2005/07/07-23-05_1309.jpg"><img class="alignnone size-full wp-image-1193" alt="07-23-05_1309" src="http://chrispelatari.files.wordpress.com/2005/07/07-23-05_1309.jpg" width="593" height="444" /></a>
 

@@ -3,7 +3,6 @@ layout: post
 title: RE&#58; SecurePasswordTextBox update
 date: 2006-03-14 21:25
 author: chrispelatari
-comments: true
 ---
 
 <p>This looks interesting. I thought Mr. "<a href="http://weblogs.asp.net/pglavich/archive/2006/03/12/440050.aspx">Just

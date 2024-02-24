@@ -3,7 +3,6 @@ layout: post
 title: Thanks, RssBandit.
 date: 2006-01-24 08:21
 author: chrispelatari
-comments: true
 categories: [rssbandit,postxing]
 ---
 

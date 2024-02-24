@@ -3,7 +3,6 @@ layout: post
 title: NetVibe&#58; Listen for SSID change
 date: 2006-03-20 22:07
 author: chrispelatari
-comments: true
 ---
 
 <p>I've updated the NetVibe source with a mildly useful update: listening for

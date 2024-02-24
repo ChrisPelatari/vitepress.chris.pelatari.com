@@ -3,7 +3,6 @@ layout: post
 title: PostXING&#58; Recent Fixes
 date: 2005-11-17 18:26
 author: chrispelatari
-comments: true
 ---
 
 <p>NEW: "PostXING" in about page now links to postxing.net.</p>

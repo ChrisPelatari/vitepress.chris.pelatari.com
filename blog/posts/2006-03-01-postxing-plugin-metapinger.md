@@ -3,7 +3,6 @@ layout: post
 title: PostXING plugin&#58; MetaPinger
 date: 2006-03-01 17:47
 author: chrispelatari
-comments: true
 ---
 
 <p>Well, it turns out that PostXING's mystery plugin author is none other than

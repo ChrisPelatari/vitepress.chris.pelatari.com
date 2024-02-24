@@ -3,7 +3,6 @@ layout: post
 title: Got my new glasses
 date: 2006-01-13 23:28
 author: chrispelatari
-comments: true
 ---
 
 <p>Strictly filed under "As if you cared".</p>

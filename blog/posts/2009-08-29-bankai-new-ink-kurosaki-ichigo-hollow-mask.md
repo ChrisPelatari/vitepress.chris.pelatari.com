@@ -3,7 +3,6 @@ layout: post
 title: Bankai! New ink - Kurosaki Ichigo hollow mask
 date: 2009-08-29 20:14
 author: chrispelatari
-comments: true
 ---
 
 <div style="text-align:left;padding:3px;">

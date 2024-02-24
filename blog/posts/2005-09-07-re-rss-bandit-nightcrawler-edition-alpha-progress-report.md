@@ -3,7 +3,6 @@ layout: post
 title: RE&#58; RSS Bandit [Nightcrawler Edition] Alpha Progress Report
 date: 2005-09-07 22:22
 author: chrispelatari
-comments: true
 ---
 <blockquote>By the way Torsten has started an <a title="Torsten Rendelmann" href="http://www.rendelmann.info/blog/PermaLink.aspx?guid=1515446d-c611-4f44-8ac2-1ce7018084bc">RSS
 Bandit new logo design contest</a> and we'd appreciate your comments. It seems

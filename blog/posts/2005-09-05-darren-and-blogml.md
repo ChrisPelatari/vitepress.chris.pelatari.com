@@ -3,7 +3,6 @@ layout: post
 title: Darren and BlogML
 date: 2005-09-05 22:58
 author: chrispelatari
-comments: true
 ---
 
 <blockquote>

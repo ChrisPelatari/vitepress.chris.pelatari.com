@@ -3,7 +3,6 @@ layout: post
 title: MonoDevelop to get a Design-Enabled
 date: 2006-01-17 21:11
 author: chrispelatari
-comments: true
 ---
 
 <p>It's for glade3, but <a href="http://primates.ximian.com/~lluis/blog/pivot/entry.php?id=47">having a 

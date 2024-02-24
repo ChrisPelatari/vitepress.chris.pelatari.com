@@ -3,7 +3,6 @@ layout: post
 title: PostXING Sux.
 date: 2005-11-16 06:36
 author: chrispelatari
-comments: true
 ---
 
 <p>And I know it. I haven't updated the binaries on <a href="http://projectdistributor.net">ProjectDistributor </a>for a long time 

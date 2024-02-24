@@ -3,7 +3,6 @@ layout: post
 title: New ink&#58; hacker emblem
 date: 2009-04-09 21:09
 author: chrispelatari
-comments: true
 ---
 
 <div style="text-align:left;padding:3px;">

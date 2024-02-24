@@ -3,7 +3,6 @@ layout: post
 title: Community Server 2.0 BlogML Converter Beta - success!
 date: 2006-06-06 13:32
 author: chrispelatari
-comments: true
 categories: [aspnet,BlogML]
 ---
 

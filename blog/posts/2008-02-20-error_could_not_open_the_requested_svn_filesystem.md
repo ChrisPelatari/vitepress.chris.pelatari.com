@@ -3,7 +3,6 @@ layout: post
 title: Error&#58; Could not open the requested SVN filesystem
 date: 2008-02-20 16:46
 author: chrispelatari
-comments: true
 categories: [subversion,svn,apache]
 ---
 When trying to connect to a new subversion repository over apache 2.0 using subversion 1.4.5. Error number:165005

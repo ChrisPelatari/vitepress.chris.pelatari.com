@@ -3,7 +3,6 @@ layout: post
 title: Guitar Hero&#58; Pros
 date: 2007-11-28 16:51
 author: chrispelatari
-comments: true
 ---
 pros indeed. Unfortunately, there are no Jimi Hendrix tracks on any of the Guitar Hero/Rock Band games. I really hope that changes some day. There is a character that somewhat resembles Jimi in Guitar Hero III, but it's not the same...it's not <strong>the experience.</strong>
 

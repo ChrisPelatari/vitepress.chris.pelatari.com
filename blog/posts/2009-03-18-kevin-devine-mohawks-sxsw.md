@@ -3,7 +3,6 @@ layout: post
 title: Kevin Devine @ Mohawk's #sxsw
 date: 2009-03-18 12:22
 author: chrispelatari
-comments: true
 ---
 
 <div style="text-align:left;padding:3px;">

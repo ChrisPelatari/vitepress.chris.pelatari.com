@@ -3,7 +3,6 @@ layout: post
 title: Opening Visual Studio with Rake
 date: 2014-08-06 21:13
 author: chrispelatari
-comments: true
 categories: [rake, visual_studio]
 ---
 There are probably several ways to do this, here’s how I did.

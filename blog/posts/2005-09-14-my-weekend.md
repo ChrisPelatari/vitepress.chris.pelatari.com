@@ -3,7 +3,6 @@ layout: post
 title: My Weekend
 date: 2005-09-14 20:20
 author: chrispelatari
-comments: true
 ---
 This is definitely filed under "As if you cared". My friend Peyman had a
 little gathering at his new house in Austin this past weekend. I've been to

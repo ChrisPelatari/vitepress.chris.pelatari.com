@@ -3,7 +3,6 @@ layout: post
 title: RE Finding calling method using reflection
 date: 2006-08-11 17:00
 author: chrispelatari
-comments: true
 ---
 
 <p><a href="http://geekswithblogs.net/opiesblog/archive/2006/06/29/83654.aspx">Exactly

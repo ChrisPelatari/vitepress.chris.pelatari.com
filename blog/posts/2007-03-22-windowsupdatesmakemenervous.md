@@ -3,7 +3,6 @@ layout: post
 title: Windows Updates Make Me Nervous
 date: 2007-03-22 17:45
 author: chrispelatari
-comments: true
 ---
 <p> hehe...</p>
 <blockquote>

@@ -3,7 +3,6 @@ layout: post
 title: Ethan and Cody at the beach
 date: 2005-09-18 05:17
 author: chrispelatari
-comments: true
 ---
 I took Ethan and my cousin Cody to the beach today. I got them some du-rags
 and ninja swords, so they could play pirates. They had a sword fight on the

@@ -3,7 +3,6 @@ layout: post
 title: BackgroundWorker.isRunning
 date: 2006-02-11 18:38
 author: chrispelatari
-comments: true
 categories: [csharp,winforms]
 ---
 

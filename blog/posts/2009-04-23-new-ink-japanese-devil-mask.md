@@ -3,7 +3,6 @@ layout: post
 title: New ink&#58; Japanese devil mask!
 date: 2009-04-23 02:29
 author: chrispelatari
-comments: true
 ---
 
 <div style="text-align:left;padding:3px;">

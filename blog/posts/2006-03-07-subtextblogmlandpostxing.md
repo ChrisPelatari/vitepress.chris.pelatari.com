@@ -3,7 +3,6 @@ layout: post
 title: SubText, BlogML, and PostXING
 date: 2006-03-07 14:30
 author: chrispelatari
-comments: true
 ---
 <a href="http://chrispelatari.files.wordpress.com/2006/03/postxing.png"><img class="alignnone size-full wp-image-1159" alt="PostXING" src="http://chrispelatari.files.wordpress.com/2006/03/postxing.png" width="593" height="420" /></a>
 

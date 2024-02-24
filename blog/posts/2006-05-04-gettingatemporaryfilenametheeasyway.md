@@ -3,7 +3,6 @@ layout: post
 title: Getting a temporary filename the easy way
 date: 2006-05-04 15:02
 author: chrispelatari
-comments: true
 categories: [csharp]
 ---
 

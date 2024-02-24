@@ -3,7 +3,6 @@ layout: post
 title: Unable to find the requested .Net Framework Data Provider.  It may not be installed.
 date: 2010-04-06 11:20
 author: chrispelatari
-comments: true
 categories: [dotnet,SQLite]
 ---
 ```xml

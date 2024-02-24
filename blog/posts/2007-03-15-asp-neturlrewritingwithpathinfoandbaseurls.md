@@ -3,7 +3,6 @@ layout: post
 title: ASP.NET - UrlRewriting with PathInfo and base urls
 date: 2007-03-15 13:45
 author: chrispelatari
-comments: true
 category: aspnet
 ---
 

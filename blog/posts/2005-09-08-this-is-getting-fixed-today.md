@@ -3,7 +3,6 @@ layout: post
 title: This is getting fixed. Today.
 date: 2005-09-08 06:02
 author: chrispelatari
-comments: true
 ---
 
 <p><!--StartFragment --> I noticed that I haven't gotten any comments on my 

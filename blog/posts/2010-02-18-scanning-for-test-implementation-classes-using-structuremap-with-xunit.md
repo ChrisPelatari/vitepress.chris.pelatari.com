@@ -3,7 +3,6 @@ layout: post
 title: Scanning for Test implementation classes using StructureMap with xunit
 date: 2010-02-18 07:59
 author: chrispelatari
-comments: true
 categories: [xunit,StructureMap]
 ---
 

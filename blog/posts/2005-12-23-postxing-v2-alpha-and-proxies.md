@@ -3,7 +3,6 @@ layout: post
 title: PostXING v2 alpha and proxies
 date: 2005-12-23 06:53
 author: chrispelatari
-comments: true
 ---
 
 <p>I'd like to apologize if any users of <a href="http://postxing.net">PostXING</a> have to go thru proxies...I've been 

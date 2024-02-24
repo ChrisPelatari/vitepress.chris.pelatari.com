@@ -2,7 +2,6 @@
 title: "#ripprince"
 layout: post
 author: chrispelatari
-comments: true
 categories: [music]
 ---
 # Electric word life.

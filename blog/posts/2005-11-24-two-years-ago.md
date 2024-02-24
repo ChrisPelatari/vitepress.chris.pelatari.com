@@ -3,7 +3,6 @@ layout: post
 title: Two years ago...
 date: 2005-11-24 06:59
 author: chrispelatari
-comments: true
 ---
 <a href="/blog/archive/2003/11/24/221.aspx">..the idea for PostXING began</a>. <br />
 <br />

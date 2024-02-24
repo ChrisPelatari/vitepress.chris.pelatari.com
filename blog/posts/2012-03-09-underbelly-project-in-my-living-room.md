@@ -3,7 +3,6 @@ layout: post
 title: Underbelly project in my living room
 date: 2012-03-09 16:44
 author: chrispelatari
-comments: true
 categories: [Standard, stencil, streetart, streetart]
 ---
 It started when I saw a piece from the underbelly project NYC by <a href="http://joeiurato.wordpress.com/">:01</a>.

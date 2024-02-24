@@ -3,7 +3,6 @@ layout: post
 title: Windows Live Writer
 date: 2006-08-17 02:40
 author: chrispelatari
-comments: true
 ---
 
 <p>

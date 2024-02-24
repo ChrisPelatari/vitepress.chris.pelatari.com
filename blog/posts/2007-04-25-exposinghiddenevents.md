@@ -3,7 +3,6 @@ layout: post
 title: Exposing Hidden Events
 date: 2007-04-25 17:44
 author: chrispelatari
-comments: true
 categories: [dotnet,winforms,csharp]
 ---
 

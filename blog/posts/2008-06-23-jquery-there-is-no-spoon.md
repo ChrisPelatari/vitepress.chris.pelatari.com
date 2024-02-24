@@ -3,7 +3,6 @@ layout: post
 title: jQuery - There is no spoon
 date: 2008-06-23 13:06
 author: chrispelatari
-comments: true
 ---
 I've been working with javascript almost since its inception. It was the first language that I ever really hacked in. I remember having to code around document.layers (blecch!), and I've used javascript with a fair amount of success in the past.
 

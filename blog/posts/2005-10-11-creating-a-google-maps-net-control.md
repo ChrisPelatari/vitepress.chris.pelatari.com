@@ -3,7 +3,6 @@ layout: post
 title: Creating a Google Maps .NET Control
 date: 2005-10-11 20:12
 author: chrispelatari
-comments: true
 ---
 
 <p>Choice Quote:</p>

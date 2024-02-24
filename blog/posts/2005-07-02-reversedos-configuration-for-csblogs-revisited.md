@@ -3,7 +3,6 @@ layout: post
 title: ReverseDOS Configuration for CS::Blogs revisited
 date: 2005-07-02 00:24
 author: chrispelatari
-comments: true
 ---
 <p>I just set up CS::Blogs 1.1 on my server <a href="/blog">over here</a> and I wanted to keep 
 ReverseDOS going for it. So I just copied over the settings from my web.config 

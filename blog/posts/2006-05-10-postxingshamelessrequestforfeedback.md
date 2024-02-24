@@ -3,7 +3,6 @@ layout: post
 title: PostXING&#58; Shameless request for feedback
 date: 2006-05-10 15:14
 author: chrispelatari
-comments: true
 ---
 
 <p><a href="http://postxing.net/gemini/issue/ViewIssue.aspx?id=32">http://postxing.net/gemini/issue/ViewIssue.aspx?id=32</a></p>

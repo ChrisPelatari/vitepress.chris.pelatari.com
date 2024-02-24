@@ -3,7 +3,6 @@ layout: post
 title: New ink&#58; killer octopus!
 date: 2009-04-17 00:27
 author: chrispelatari
-comments: true
 ---
 
 <div style="text-align:left;padding:3px;">

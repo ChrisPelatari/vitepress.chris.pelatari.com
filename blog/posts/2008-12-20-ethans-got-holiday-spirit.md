@@ -3,7 +3,6 @@ layout: post
 title: Ethan's got holiday spirit!
 date: 2008-12-20 20:18
 author: chrispelatari
-comments: true
 ---
 
 <div style="text-align:left;padding:3px;">

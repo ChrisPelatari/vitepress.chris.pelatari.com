@@ -3,7 +3,6 @@ layout: post
 title: RE&#58; What is with Blogger.com?
 date: 2006-03-10 13:32
 author: chrispelatari
-comments: true
 ---
 <p>I had tried to reply to this post on WinExtra, but it errored out on me. So,
 here's what the comment said:</p>

@@ -3,7 +3,6 @@ layout: post
 title: Using git flow with github for windows
 date: 2012-07-02 19:16
 author: chrispelatari
-comments: true
 categories: [Image, professional_geek]
 ---
 I like <a href="http://windows.github.com">github for windows</a>. Seriously, they did a great job with it - kudos, <a href="http://haacked.com">Phil</a>. I like that it has an updateable bash shell ala msysgit. I also like to use <a href="http://github.com/nvie/gitflow">git-flow</a> but alas, this isn’t included with the release. Here is how I got it installed on my system anyway:

@@ -3,7 +3,6 @@ layout: post
 title: Sql Server Management Studio Express - you suck.
 date: 2007-05-25 14:03
 author: chrispelatari
-comments: true
 ---
 
 <p>I would like to know who thought it was a good idea to remove "import 

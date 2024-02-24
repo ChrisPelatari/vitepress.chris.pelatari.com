@@ -3,7 +3,6 @@ layout: post
 title: DataGridView ColorPicker using a DataGridViewButtonColumn
 date: 2007-12-13 20:41
 author: chrispelatari
-comments: true
 categories: [DataGridView,winforms,csharp]
 ---
 It's not often that I get the opportunity to blog about something neat that I learned to do in [winforms](http://windowsclient.net/) so you know I gotta, even tho it's not totally complete yet. Here's how I got a DataGridViewButtonColumn to act as a color picker.

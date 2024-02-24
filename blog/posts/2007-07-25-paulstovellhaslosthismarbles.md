@@ -3,7 +3,6 @@ layout: post
 title: Paul Stovell has lost his marbles.
 date: 2007-07-25 04:35
 author: chrispelatari
-comments: true
 ---
 [note: this started as a comment but started getting a little long-winded. what follows is a little gentle ribbing of Paul for <a href="http://www.paulstovell.net/blog/index.php/runtime-caching/">a recent post he wrote about being a lazy cache programmer </a>:P]
 

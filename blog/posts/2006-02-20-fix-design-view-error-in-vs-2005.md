@@ -3,7 +3,6 @@ layout: post
 title: FIX&#58; Design View error in VS 2005
 date: 2006-02-20 19:20
 author: chrispelatari
-comments: true
 ---
 
 <p><a href="http://support.microsoft.com/kb/912019/en-us">Here's a link to the

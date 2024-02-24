@@ -3,7 +3,6 @@ layout: post
 title: skmMenu code change to work with xhtml doctypes
 date: 2007-03-22 12:10
 author: chrispelatari
-comments: true
 categories: [aspnet, javascript]
 ---
 

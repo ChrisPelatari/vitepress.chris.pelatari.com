@@ -3,7 +3,6 @@ layout: post
 title: Visual Studio Editor, how you mock me.
 date: 2005-10-12 05:40
 author: chrispelatari
-comments: true
 ---
 
 <p>I've been chasing down this odd <a href="http://blogs.msdn.com/vseditor/archive/2005/05/12/417011.aspx">Visual 

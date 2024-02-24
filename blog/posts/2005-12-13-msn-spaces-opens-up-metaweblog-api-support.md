@@ -3,7 +3,6 @@ layout: post
 title: MSN Spaces opens up MetaWeblog API support
 date: 2005-12-13 16:34
 author: chrispelatari
-comments: true
 ---
 
 <p>And now I can post there with <a href="http://postxing.net">PostXING</a> (v2).</p>

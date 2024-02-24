@@ -3,7 +3,6 @@ layout: post
 title: Ethan and Lord Nobleton!
 date: 2009-10-03 21:12
 author: chrispelatari
-comments: true
 ---
 
 <div style="text-align:left;padding:3px;">

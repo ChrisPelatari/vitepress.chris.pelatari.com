@@ -3,7 +3,6 @@ layout: post
 title: BackgroundWorker.isRunning &#58; take two
 date: 2006-03-12 15:07
 author: chrispelatari
-comments: true
 ---
 
 <p>I can't believe nobody called me on this: <a href="http://msdn2.microsoft.com/en-US/library/system.componentmodel.backgroundworker.isbusy(VS.80).aspx">BackgroundWorker.IsBusy
