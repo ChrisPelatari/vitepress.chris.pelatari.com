@@ -81,4 +81,4 @@ I tried several different approaches and ended up having to restart the webpacke
 
 I don't fully understand how all of the pieces fit together yet, but I'm getting there. I'm going to continue to work on this project, and I'll update if I come across anything interesting. 
 
-It felt good to hack on something that gave me that feeling of accomplishment that I used to get when I was a [young developer](https://chris.pelatari.com/2003/02/11/Nearing-completion.html). If you've read this far, you're a champ. Thanks fam.
+It felt good to hack on something that gave me that feeling of accomplishment that I used to get when I was a [young developer](/posts/2003-02-11-Nearing-completion.html). If you've read this far, you're a champ. Thanks fam.
