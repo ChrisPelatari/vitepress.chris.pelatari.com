@@ -32,18 +32,6 @@ img.VPImage.image-src {
   border-radius: 50%;
 }
 
-h3 {
-  text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
 .VPHero::before {
   content: url('/images/header_transparent.png');
 }

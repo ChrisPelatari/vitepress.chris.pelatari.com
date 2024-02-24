@@ -22,6 +22,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Archive', link: '/archive' },
+      { text: 'Meditations', link: '/meditations'},
       { text: 'About', link: '/about' }
     ],
 
