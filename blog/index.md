@@ -30,9 +30,18 @@ features:
 <style>
 img.VPImage.image-src {
   border-radius: 50%;
+  padding: 0.95rem;
 }
 
 .VPHero::before {
   content: url('/images/header_transparent.png');
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .VPHero::before {
+    content: url('/images/header_transparent_mobile.png');
+  }
 }
 </style>
