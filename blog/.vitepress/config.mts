@@ -14,7 +14,7 @@ export default defineConfig({
   description: "professional geek ramblings",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: `images/apple-touch-icon.png`,
+    logo: `${hostname}/images/apple-touch-icon.png`,
     siteTitle: false,
     footer: {
       copyright: 'Copyright © 2003 - 2024, Chris Pelatari'
