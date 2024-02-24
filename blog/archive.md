@@ -1,5 +1,8 @@
 <ul style="list-style: none;">
   <li v-for="post in posts" :key="post.slug">
+    <h3 v-if="post.slug.slice(0,4) !== posts[index + 1]?.slug.slice(0,4)">
+      {{ year, year = post.slug.slice(0,4) }}
+    </h3>
     <a :href="`/posts/${post.slug}`">{{ post.title }}</a>
     <p class="text-caption">{{ post.excerpt }}</p>
     <p>{{ post.description }}</p>
