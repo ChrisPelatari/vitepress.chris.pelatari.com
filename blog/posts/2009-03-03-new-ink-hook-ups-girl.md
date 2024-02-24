@@ -4,7 +4,6 @@ title: New ink&#58; Hook ups girl
 date: 2009-03-03 19:19
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <div style="text-align:left;padding:3px;">

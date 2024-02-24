@@ -4,7 +4,6 @@ title: RE&#58; PostXING Review - Yet Another Blog Posting Client
 date: 2005-11-15 00:56
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <p>Ah! It's been a while since I've gotten some good PostXING feedback. Guess

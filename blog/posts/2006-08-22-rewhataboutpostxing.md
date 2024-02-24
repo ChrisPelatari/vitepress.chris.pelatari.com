@@ -4,7 +4,6 @@ title: RE&#58; What about PostXING?
 date: 2006-08-22 18:59
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <blockquote>

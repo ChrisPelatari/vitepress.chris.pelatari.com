@@ -4,7 +4,6 @@ title: PostXING - It's Beta Time!
 date: 2006-03-09 14:02
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 <a href="http://chrispelatari.files.wordpress.com/2006/03/postxing_beta.gif"><img class="alignnone size-full wp-image-1157" alt="postxing_beta" src="http://chrispelatari.files.wordpress.com/2006/03/postxing_beta.gif" width="192" height="190" /></a>
 

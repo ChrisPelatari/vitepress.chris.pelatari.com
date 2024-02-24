@@ -4,7 +4,6 @@ title: Ethan & Ricky pup!
 date: 2009-02-20 17:28
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <div style="text-align:left;padding:3px;">

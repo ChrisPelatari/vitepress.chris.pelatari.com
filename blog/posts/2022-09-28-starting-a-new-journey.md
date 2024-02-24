@@ -2,7 +2,6 @@
 title: "Starting a new journey"
 layout: post
 author: chrispelatari
-categories: [professional_geek]
 ---
 
 I started a new job yesterday.

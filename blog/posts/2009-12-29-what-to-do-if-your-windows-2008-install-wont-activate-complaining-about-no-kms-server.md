@@ -4,7 +4,6 @@ title: What to do if your Windows 2008 install won't activate complaining about 
 date: 2009-12-29 11:09
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <p>Basically this is what happened:<br /><br />The MSDN subscriptions version of 

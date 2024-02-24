@@ -4,7 +4,6 @@ title: Blog Moving
 date: 2007-11-14 12:35
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <p>I noticed that a handful of people are still subscribed to this little ol' 

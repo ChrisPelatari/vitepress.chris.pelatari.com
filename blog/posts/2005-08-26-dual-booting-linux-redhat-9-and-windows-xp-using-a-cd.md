@@ -4,7 +4,6 @@ title: Dual booting Linux Redhat 9 and Windows XP using a CD
 date: 2005-08-26 14:45
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <p>We have a couple of legacy applications here, written in C++, that have 

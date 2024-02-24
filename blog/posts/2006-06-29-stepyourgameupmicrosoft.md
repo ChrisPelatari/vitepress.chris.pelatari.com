@@ -4,7 +4,6 @@ title: Step your game up, Microsoft.
 date: 2006-06-29 00:24
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <p>Unfortunately, the rants about WGA causing a bluescreen are true. It happened 

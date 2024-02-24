@@ -4,7 +4,6 @@ title: Ethan and Lord Nobleton!
 date: 2009-10-03 21:12
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <div style="text-align:left;padding:3px;">

@@ -4,7 +4,6 @@ title: Source, are you useful again?
 date: 2006-03-07 14:32
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 
 <p>testing source</p>

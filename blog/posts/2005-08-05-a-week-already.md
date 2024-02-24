@@ -4,7 +4,6 @@ title: A week already
 date: 2005-08-05 22:17
 author: chrispelatari
 comments: true
-categories: [professional_geek]
 ---
 Well, it's been a week now since I handed over my pip-squeak back to his mom.
 
