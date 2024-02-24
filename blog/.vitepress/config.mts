@@ -84,7 +84,8 @@ export default defineConfig({
     })
 
     for(const { url, excerpt, frontmatter, html } of posts) {
-      //get the date from the file name
+      //get the date from the file name - all of them are in the format YYYY-MM-DD-title.md
+      // @ts-ignore: Object is possibly 'undefined'
       const date = new Date(url.split('/').pop().slice(0, 10))
 
       feed.addItem({
