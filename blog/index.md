@@ -22,9 +22,9 @@ features:
   - title: How it's going
     details: The Declaration of Snugland
     link: /posts/2024-02-18-the-declaration-of-snugland
-  - title: How it's been
-    details: Geez, I've been at this for a while...
-    link: /archive
+  - title: How it once was
+    details: One of my favorite posts...
+    link: /posts/2008-11-22-andre-3-stacks-in-ny
 ---
 
 <style>
