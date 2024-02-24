@@ -36,8 +36,11 @@ h1 {
   text-decoration: underline;
 }
 
-img {
-  max-width: 80%;
-  height: auto;
+/* only limit the size on large screens */
+@media (min-width: 800px) {
+  img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 </style>
