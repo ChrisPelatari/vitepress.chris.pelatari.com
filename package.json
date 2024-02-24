@@ -1,8 +1,10 @@
 {
+  "type": "module",
   "devDependencies": {
     "@types/node": "^20.11.17",
     "feed": "^4.2.2",
     "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "path": "^0.12.7",
     "unplugin-auto-import": "^0.17.5",
     "vite-plugin-vuetify": "^2.0.1",
@@ -14,7 +16,8 @@
     "build": "vitepress build blog",
     "preview": "vitepress preview blog --port 8484",
     "version": "node ./version.mjs",
-    "v": "node ./version.mjs"
+    "v": "node ./version.mjs",
+    "archive": "node ./collect-archive.mjs"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47"

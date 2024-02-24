@@ -72,7 +72,7 @@ export default defineConfig({
     })
 
     // Load all the posts
-    const posts = await createContentLoader('*.md', {
+    const posts = await createContentLoader('./posts/*.md', {
       excerpt: true,
       render: true
     }).load()
@@ -96,7 +96,7 @@ export default defineConfig({
             link: `${hostname}`
           }
         ],
-        date: new Date(frontmatter.date)
+        date: frontmatter.date ? new Date(frontmatter.date) : new Date(url.split('/').slice(1, 10))
       })
     }
 
@@ -111,7 +111,8 @@ export default defineConfig({
     ],
     resolve: {
       alias: {
-        '@': fileURLToPath(new URL('./src', import.meta.url))
+        '@': fileURLToPath(new URL('./', import.meta.url)),
+        fs: 'node:fs'
       },
     },
     ssr: {
