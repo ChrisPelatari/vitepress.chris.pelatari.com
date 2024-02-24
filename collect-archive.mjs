@@ -11,6 +11,7 @@ const data = posts.map((post) => {
     title: data.title ? data.title : post.slice(10).replace('.md', ''),
     date: data.date,
     excerpt: data.excerpt,
+    description: data.description ? data.description : removeMd(body).slice(0, 150),
     slug: post.replace('.md', ''),
   }
 })
