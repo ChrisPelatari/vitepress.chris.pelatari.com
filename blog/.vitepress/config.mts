@@ -83,6 +83,9 @@ export default defineConfig({
     })
 
     for(const { url, excerpt, frontmatter, html } of posts) {
+      //get the date from the file name
+      const date = new Date(url.split('/').pop().slice(0, 10))
+
       feed.addItem({
         title: frontmatter.title,
         id: `${hostname}${url}`,
@@ -96,7 +99,7 @@ export default defineConfig({
             link: `${hostname}`
           }
         ],
-        date: frontmatter.date ? new Date(frontmatter.date) : new Date(url.split('/').slice(1, 10))
+        date: date 
       })
     }
 

@@ -8,12 +8,10 @@ const data = posts.map((post) => {
   const content = fs.readFileSync(`./blog/posts/${post}`, 'utf-8')
   const { data, content: body } = matter(content)
   return {
-    ...data,
-    title: data.title,
+    title: data.title ? data.title : post.slice(10).replace('.md', ''),
     date: data.date,
     excerpt: data.excerpt,
     slug: post.replace('.md', ''),
-    body: removeMd(body),
   }
 })
 
