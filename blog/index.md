@@ -23,7 +23,7 @@ features:
     details: The Declaration of Snugland
     link: /posts/2024-02-18-the-declaration-of-snugland
   - title: How it once was
-    details: One of my favorite posts...
+    details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
 ---
 
