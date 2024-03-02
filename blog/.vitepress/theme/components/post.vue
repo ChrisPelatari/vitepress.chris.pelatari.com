@@ -2,7 +2,7 @@
   <div class="VPPage">
     <v-container>
       <h3 class="text-h3">{{ frontmatter.title }}</h3>
-      <p class="text-overline">{{ date.format(new Date(page.filePath.split('/').pop().slice(0, 10)), 'MMMM DD, YYYY') }}</p>
+      <p class="text-overline">{{ date.format(new Date(page.filePath.split('/').pop().slice(0, 11)), 'MMMM DD, YYYY') }}</p>
       <p class="text-caption" v-if="frontmatter.permalink">{{ frontmatter.permalink }}</p>
       <Content />
     </v-container>
