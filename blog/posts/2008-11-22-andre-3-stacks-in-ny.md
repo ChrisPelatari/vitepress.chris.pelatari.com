@@ -8,8 +8,6 @@ author: chrispelatari
 
 Originally uploaded by [blue_fenix](http://www.flickr.com/people/blue_fenix/)  
 
-I ran into Andre 3000 last time I went to NYC. Really down to earth<br />
-dude.<br />
-<br />
---<br />
+I ran into Andre 3000 last time I went to NYC. Really down to earth dude.
+--
 -Christopher | <a href="http://bluefenix.net">bluefenix.net</a>
