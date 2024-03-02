@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Latest Post
-      link: /posts/2024-02-18-the-declaration-of-snugland
+      link: /posts/2024-03-02-discourse-fresh-install
     - theme: alt
       text: Archive
       link: /archive
@@ -20,8 +20,8 @@ features:
     details: w00t! First post!
     link: /posts/2003-02-07-WOOT-FIRST-POST
   - title: How it's going
-    details: The Declaration of Snugland
-    link: /posts/2024-02-18-the-declaration-of-snugland
+    details: Discourse Fresh Install on Mac OS
+    link: /posts/2024-03-02-discourse-fresh-install
   - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
