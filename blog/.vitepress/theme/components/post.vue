@@ -2,7 +2,7 @@
   <div class="VPPage">
     <v-container>
       <h3 class="text-h3">{{ frontmatter.title }}</h3>
-      <p class="text-overline">{{ date.format(new Date(page.filePath.split('/').pop().slice(0, 11)), 'MMMM DD, YYYY') }}</p>
+      <p class="text-overline">{{ new Date(page.filePath.split('/').pop().slice(0, 11)).toDateString() }}</p>
       <p class="text-caption" v-if="frontmatter.permalink">{{ frontmatter.permalink }}</p>
       <Content />
     </v-container>
@@ -11,7 +11,6 @@
 
 <script setup>
 import { useData } from 'vitepress'
-import date from 'date-and-time'
 const { frontmatter, page } = useData()
 </script>
 

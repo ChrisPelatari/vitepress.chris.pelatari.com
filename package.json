@@ -2,7 +2,6 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^20.11.17",
-    "date-and-time": "^3.1.1",
     "feed": "^4.2.2",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
@@ -10,6 +9,7 @@
     "unplugin-auto-import": "^0.17.5",
     "vite-plugin-vuetify": "^2.0.1",
     "vitepress": "^1.0.0-rc.42",
+    "vue": "^3.4.21",
     "vuetify": "^3.5.4"
   },
   "scripts": {
