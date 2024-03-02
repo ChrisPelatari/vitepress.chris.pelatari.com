@@ -24,6 +24,8 @@ You need to have the following installed:
 
 This last one is not mentioned in the install instructions, but it is required. When running the ember app, it will fail if ImageMagick is not installed.
 
+![ImageMagick Version](images/image_magick_version.png "ImageMagick Version")
+
 ```zsh
 brew install imagemagick
 ```
