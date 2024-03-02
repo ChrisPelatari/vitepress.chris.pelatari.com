@@ -16,7 +16,36 @@ const { frontmatter, page } = useData()
 
 <style>
 p {
-  margin: 1.1618em;
+  margin: 1.618em;
+}
+
+ol, ul {
+  margin: 1.618em;
+  list-style-position: outside;
+}
+
+ol li {
+  margin: 0;
+  padding: 0;
+  list-style:decimal;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style:outside;
+}
+
+.vp-adaptive-theme {
+  padding: 1.618em;
+  margin: 1.618em;
+  background: #212121;
+  border: 1px solid #fafafa;
+  border-radius: 0.25em;
+}
+
+code > span{
+  margin: 1.618em;
 }
 
 h2 {
