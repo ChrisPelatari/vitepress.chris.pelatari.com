@@ -2,9 +2,12 @@ import fs from 'fs'
 import matter from 'gray-matter'
 import removeMd from 'remove-markdown'
 
-const posts = fs.readdirSync('./blog/posts')
+const posts = fs.readdirSync('./blog/posts/')
 
 const data = posts.map((post) => {
+  console.log(post)
+  if (post === 'images') return
+  
   const content = fs.readFileSync(`./blog/posts/${post}`, 'utf-8')
   const { data, content: body } = matter(content)
   return {
