@@ -52,7 +52,7 @@ li {
 }
 
 .vp-adaptive-theme {
-  background: #212121;
+  background: var(--vp-c-gray-soft);
   border: 1px solid #fafafa;
   border-radius: 0.25em;
 }
