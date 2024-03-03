@@ -7,7 +7,7 @@ const posts = fs.readdirSync('./blog/posts/')
 const data = posts.map((post) => {
   console.log(post)
   if (post === 'images') return
-  
+
   const content = fs.readFileSync(`./blog/posts/${post}`, 'utf-8')
   const { data, content: body } = matter(content)
   return {
@@ -19,8 +19,11 @@ const data = posts.map((post) => {
   }
 })
 
+// Remove the last element of the array, which is undefined/null
+let cleanposts = data.slice(0, data.length - 1)
+
 fs.writeFileSync(
   'blog/posts.json',
-  JSON.stringify(data),
+  JSON.stringify(cleanposts),
   'utf-8'
 )
