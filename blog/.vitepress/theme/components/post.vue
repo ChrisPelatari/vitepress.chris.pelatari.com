@@ -14,12 +14,12 @@ const { frontmatter, page } = useData()
 
 <style>
 p {
-  margin: 1.618em;
+  padding: 0.4rem;
 }
 
 ol,
 ul {
-  margin: 1.618em;
+  margin: 1rem;
   list-style-position: outside;
 }
 
@@ -51,8 +51,6 @@ li {
 }
 
 .vp-adaptive-theme {
-  padding: 1.618em;
-  margin: 1.618em;
   background: #212121;
   border: 1px solid #fafafa;
   border-radius: 0.25em;
