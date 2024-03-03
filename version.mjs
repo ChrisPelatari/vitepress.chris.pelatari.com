@@ -5,8 +5,8 @@ import fs from 'fs'
 //read the package.json file
 const pkg = JSON.parse(fs.readFileSync('package.json'))
 
-//make the major number 2 for the resurrection of the project.
-pkg.version = '2'
+//make the major number 3 for the third resurrection of the project.
+pkg.version = '3'
 
 //make the minor number this year minus 2022 - our anniversary year
 pkg.version = `${pkg.version}.${new Date().getFullYear() - 2022}`
@@ -14,6 +14,7 @@ pkg.version = `${pkg.version}.${new Date().getFullYear() - 2022}`
 //make the patch number the combined month and day of the month
 const month = new Date().getMonth() + 1
 
+//get the day of the month
 let day = new Date().getDate()
 
 //add zero to the beginning of the day if it is only one digit
