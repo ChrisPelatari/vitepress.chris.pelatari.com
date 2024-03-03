@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; PostXING&#58; Better Keyboard Support
+title: RE - PostXING - Better Keyboard Support
 date: 2006-01-19 19:45
 author: chrispelatari
 ---
