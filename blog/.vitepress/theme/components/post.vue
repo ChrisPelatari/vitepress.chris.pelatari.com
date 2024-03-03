@@ -57,7 +57,7 @@ li {
 }
 
 code>span {
-  margin: 1.618em;
+  margin: 2.5rem;
 }
 
 h2 {
