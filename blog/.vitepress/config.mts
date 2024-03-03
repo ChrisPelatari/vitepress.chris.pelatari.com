@@ -5,6 +5,7 @@ import { Feed } from 'feed'
 import  Vuetify from 'vite-plugin-vuetify'
 import AutoImport from 'unplugin-auto-import/vite'
 import { fileURLToPath, URL } from 'node:url'
+import version from '../../package.json'
 
 const hostname: string = 'https://chris.pelatari.com'
 
@@ -17,7 +18,7 @@ export default defineConfig({
     logo: `${hostname}/images/apple-touch-icon.png`,
     siteTitle: false,
     footer: {
-      message: '♾ May the source be with you.',
+      message: `♾ May the source be with you. v${version.version}`,
       copyright: 'Copyright © 2003 - 2024, Chris Pelatari'
     },
     nav: [
