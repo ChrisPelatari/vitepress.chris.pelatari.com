@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; Microsoft Codename "Spang"
+title: RE - Microsoft Codename "Spang"
 date: 2005-10-03 17:40
 author: chrispelatari
 ---
