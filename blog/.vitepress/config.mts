@@ -112,7 +112,7 @@ export default defineConfig({
       alias: {
         '@': fileURLToPath(new URL('./', import.meta.url)),
         fs: 'node:fs'
-      },
+      }
     }
   }
 })
