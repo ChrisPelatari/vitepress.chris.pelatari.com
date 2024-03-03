@@ -1,11 +1,9 @@
 <template>
-  <div class="VPPage">
-    <v-container>
-      <h3 class="text-h3">{{ frontmatter.title }}</h3>
-      <p class="text-overline">{{ new Date(page.filePath.split('/').pop().slice(0, 11)).toDateString() }}</p>
-      <p class="text-caption" v-if="frontmatter.permalink">{{ frontmatter.permalink }}</p>
-      <Content />
-    </v-container>
+  <div class="VPPage" style="margin-left: 1.618rem1; margin-right: 1.618rem;">
+    <h3 class="text-h3">{{ frontmatter.title }}</h3>
+    <p class="text-overline">{{ new Date(page.filePath.split('/').pop().slice(0, 11)).toDateString() }}</p>
+    <p class="text-caption" v-if="frontmatter.permalink">{{ frontmatter.permalink }}</p>
+    <Content />
   </div>
 </template>
 
@@ -19,7 +17,8 @@ p {
   margin: 1.618em;
 }
 
-ol, ul {
+ol,
+ul {
   margin: 1.618em;
   list-style-position: outside;
 }
@@ -27,13 +26,28 @@ ol, ul {
 ol li {
   margin: 0;
   padding: 0;
-  list-style:decimal;
+  list-style: decimal;
 }
 
 li {
   margin: 0;
   padding: 0;
-  list-style:outside;
+  list-style: outside;
+}
+
+.text-h3 {
+  font-size: calc(1.618em * 2);
+  line-height: 2.75rem;
+  font-weight: 600;
+  margin-top: 1.618rem;
+  margin-bottom: 1.618rem;
+}
+
+.text-overline {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  margin: 1.618em;
 }
 
 .vp-adaptive-theme {
@@ -44,7 +58,7 @@ li {
   border-radius: 0.25em;
 }
 
-code > span{
+code>span {
   margin: 1.618em;
 }
 

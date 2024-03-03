@@ -3,8 +3,9 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
-import vuetify from './plugins/vuetify'
 import post from './components/post.vue'
+import VPSocialLink from './components/VPSocialLink.vue'
+import VPSocialLinks from './components/VPSocialLinks.vue'
 
 export default {
   extends: DefaultTheme,
@@ -14,8 +15,8 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // vuetify
-    app.use(vuetify)
     app.component('post', post)
+    app.component('VPSocialLink', VPSocialLink)
+    app.component('VPSocialLinks', VPSocialLinks)
   }
 } satisfies Theme
