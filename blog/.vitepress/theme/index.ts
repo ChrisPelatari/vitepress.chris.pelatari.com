@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import post from './components/post.vue'
+import mastodon from './components/mastodon.vue'
 import VPSocialLink from './components/VPSocialLink.vue'
 import VPSocialLinks from './components/VPSocialLinks.vue'
 
@@ -16,6 +17,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('post', post)
+    app.component('mastodon', mastodon)
     app.component('VPSocialLink', VPSocialLink)
     app.component('VPSocialLinks', VPSocialLinks)
   }

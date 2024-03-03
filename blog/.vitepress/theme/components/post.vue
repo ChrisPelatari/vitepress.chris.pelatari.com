@@ -1,7 +1,7 @@
 <template>
-  <div class="VPPage" style="margin-left: 1.618rem1; margin-right: 1.618rem;">
+  <div class="VPPage" style="margin-left: 1.618rem; margin-right: 1.618rem;">
     <h3 class="text-h3">{{ frontmatter.title }}</h3>
-    <p class="text-overline">{{ new Date(page.filePath.split('/').pop().slice(0, 11)).toDateString() }}</p>
+    <p class="text-overline">{{ new Date(page.filePath.split('/').pop().slice(0, 10)).toDateString() }}</p>
     <p class="text-caption" v-if="frontmatter.permalink">{{ frontmatter.permalink }}</p>
     <Content />
   </div>
