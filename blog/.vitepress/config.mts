@@ -18,7 +18,7 @@ export default defineConfig({
     logo: `${hostname}/images/apple-touch-icon.png`,
     siteTitle: false,
     footer: {
-      message: `💻 May the source be with you. v${version.version}`,
+      message: `💾 May the source be with you. v${version.version}`,
       copyright: 'Copyright © 2003 - 2024, Chris Pelatari'
     },
     nav: [
