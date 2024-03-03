@@ -2,8 +2,6 @@ import { defineConfig, createContentLoader, type SiteConfig } from 'vitepress'
 import path from 'path'
 import fs from 'fs'
 import { Feed } from 'feed'
-import  Vuetify from 'vite-plugin-vuetify'
-import AutoImport from 'unplugin-auto-import/vite'
 import { fileURLToPath, URL } from 'node:url'
 import version from '../../package.json'
 
@@ -110,20 +108,11 @@ export default defineConfig({
     fs.writeFileSync(path.join(config.outDir, 'feed.xml'), feed.rss2())
   },
   vite: {
-    plugins: [
-      Vuetify({
-        autoImport: true
-      }),
-      AutoImport()
-    ],
     resolve: {
       alias: {
         '@': fileURLToPath(new URL('./', import.meta.url)),
         fs: 'node:fs'
       },
-    },
-    ssr: {
-      noExternal: ['vuetify']
     }
   }
 })
