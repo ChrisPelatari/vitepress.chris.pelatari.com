@@ -41,6 +41,7 @@ p.details {
 img.VPImage.image-src {
   border-radius: 50%;
   margin: 1.618rem;
+  padding: 0.95rem;
 }
 
 .VPHero::before {
