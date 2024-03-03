@@ -29,6 +29,7 @@
   padding: 1.618rem;
   border-radius: 0.5rem;
   margin-top: 1.618em;
+  background-color: var(--vp-c-default-soft);
 }
 </style>
 
