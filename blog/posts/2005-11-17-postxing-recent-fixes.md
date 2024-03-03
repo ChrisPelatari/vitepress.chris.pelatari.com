@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PostXING&#58; Recent Fixes
+title: PostXING - Recent Fixes
 date: 2005-11-17 18:26
 author: chrispelatari
 ---
