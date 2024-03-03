@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; Using DLINQ with ASP.NET (Part 2 of my LINQ series)
+title: RE - Using DLINQ with ASP.NET (Part 2 of my LINQ series)
 date: 2006-06-07 00:40
 author: chrispelatari
 ---
