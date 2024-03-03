@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New ink&#58; hacker emblem
+title: New ink - hacker emblem
 date: 2009-04-09 21:09
 author: chrispelatari
 ---
