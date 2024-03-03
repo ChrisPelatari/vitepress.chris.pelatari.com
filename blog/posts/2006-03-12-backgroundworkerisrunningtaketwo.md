@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BackgroundWorker.isRunning &#58; take two
+title: BackgroundWorker.isRunning - take two
 date: 2006-03-12 15:07
 author: chrispelatari
 ---
