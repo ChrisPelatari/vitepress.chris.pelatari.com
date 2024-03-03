@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MSBuild&#58; Date-based build number blues
+title: MSBuild - Date-based build number blues
 date: 2006-01-26 21:28
 author: chrispelatari
 categories: [dotnet]
