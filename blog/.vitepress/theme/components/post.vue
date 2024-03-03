@@ -1,8 +1,8 @@
 <template>
-  <div class="VPPage" style="margin:0.3rem;">
+  <div class="VPPage" style="margin:0.6rem;">
     <h3 class="text-h3">{{ frontmatter.title }}</h3>
     <p class="text-overline">{{ new Date(page.filePath.split('/').pop().slice(0, 10)).toDateString() }}</p>
-    <p class="text-caption" v-if="frontmatter.permalink">{{ frontmatter.permalink }}</p>
+    <p class="text-caption" v-if="frontmatter.permalink"><a href="`${frontmatter.permalink}`">{{ frontmatter.permalink }}</a></p>
     <Content />
   </div>
 </template>
@@ -26,13 +26,13 @@ ul {
 ol li {
   margin: 0;
   padding: 0;
-  list-style: decimal;
+  list-style: decimal !important;
 }
 
 li {
   margin: 0;
   padding: 0;
-  list-style: outside;
+  list-style: outside !important;
 }
 
 .text-h3 {
