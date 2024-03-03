@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PostXING&#58; Offline Categories
+title: PostXING - Offline Categories
 date: 2005-12-07 22:36
 author: chrispelatari
 ---
