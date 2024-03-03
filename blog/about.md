@@ -10,7 +10,7 @@ hero:
 
 features:
   - title: Who am I?
-    details: I'm a seasoned software developer with over 22 years of experience in delivering full-stack web applications using .NET technologies, including C# and VB.NET. More recently, I've been working with TypeScript and Node.js, sometimes with an asp.net core backend.
+    details: I'm a seasoned software developer with over 23 years of experience in delivering full-stack web applications using .NET technologies, including C# and VB.NET. More recently, I've been working with TypeScript and Node.js, sometimes with an asp.net core backend.
   - title: What do I do?
     details: I focus on delivering properly tested and scalable applications that are backed by SQL Server. I have a strong understanding of software development best practices, including object-oriented programming, test-driven development, and continuous integration and deployment.
   - title: Where can you find me?
@@ -40,7 +40,7 @@ p.details {
 
 img.VPImage.image-src {
   border-radius: 50%;
-  padding: 0.95rem;
+  margin: 1.618rem;
 }
 
 .VPHero::before {
