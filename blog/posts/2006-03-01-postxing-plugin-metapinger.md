@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PostXING plugin&#58; MetaPinger
+title: PostXING plugin - MetaPinger
 date: 2006-03-01 17:47
 author: chrispelatari
 ---
