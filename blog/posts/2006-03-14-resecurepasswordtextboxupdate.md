@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; SecurePasswordTextBox update
+title: RE - SecurePasswordTextBox update
 date: 2006-03-14 21:25
 author: chrispelatari
 ---

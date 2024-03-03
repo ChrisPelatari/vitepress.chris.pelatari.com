@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Error&#58; Could not open the requested SVN filesystem
+title: Error - Could not open the requested SVN filesystem
 date: 2008-02-20 16:46
 author: chrispelatari
 categories: [subversion,svn,apache]

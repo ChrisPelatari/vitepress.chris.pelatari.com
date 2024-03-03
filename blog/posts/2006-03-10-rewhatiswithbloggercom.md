@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; What is with Blogger.com?
+title: RE - What is with Blogger.com?
 date: 2006-03-10 13:32
 author: chrispelatari
 ---

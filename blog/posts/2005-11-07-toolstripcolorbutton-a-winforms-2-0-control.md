@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ToolStripColorButton&#58; a WinForms 2.0 Control
+title: ToolStripColorButton - a WinForms 2.0 Control
 date: 2005-11-07 18:27
 author: chrispelatari
 ---

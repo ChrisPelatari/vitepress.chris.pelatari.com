@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zeppelin&#58; Babe I'm gonna leave you
+title: Zeppelin - Babe I'm gonna leave you
 date: 2005-10-27 06:12
 author: chrispelatari
 ---

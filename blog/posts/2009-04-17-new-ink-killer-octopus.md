@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New ink&#58; killer octopus!
+title: New ink - killer octopus!
 date: 2009-04-17 00:27
 author: chrispelatari
 ---

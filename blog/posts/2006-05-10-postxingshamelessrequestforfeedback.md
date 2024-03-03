@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PostXING&#58; Shameless request for feedback
+title: PostXING - Shameless request for feedback
 date: 2006-05-10 15:14
 author: chrispelatari
 ---

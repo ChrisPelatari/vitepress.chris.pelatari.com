@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NetVibe&#58; Listen for SSID change
+title: NetVibe - Listen for SSID change
 date: 2006-03-20 22:07
 author: chrispelatari
 ---

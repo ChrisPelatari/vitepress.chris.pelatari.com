@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Guitar Hero&#58; Pros
+title: Guitar Hero -  Pros
 date: 2007-11-28 16:51
 author: chrispelatari
 ---

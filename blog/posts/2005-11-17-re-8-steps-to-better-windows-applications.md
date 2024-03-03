@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; 8 Steps to Better Windows Applications
+title: RE - 8 Steps to Better Windows Applications
 date: 2005-11-17 07:30
 author: chrispelatari
 ---

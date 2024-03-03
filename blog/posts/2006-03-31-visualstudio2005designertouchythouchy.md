@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visual Studio 2005 Designer&#58; Touchy, Thouchy!
+title: Visual Studio 2005 Designer - Touchy, Thouchy!
 date: 2006-03-31 02:55
 author: chrispelatari
 categories: [visual_studio]
