@@ -20,10 +20,10 @@ const data = posts.map((post) => {
 })
 
 // Remove the last element of the array, which is undefined/null
-let cleanposts = data.slice(0, data.length - 1)
+let postsOnly = data.slice(0, data.length - 1)
 
 fs.writeFileSync(
   'blog/posts.json',
-  JSON.stringify(cleanposts),
+  JSON.stringify(postsOnly),
   'utf-8'
 )
