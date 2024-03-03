@@ -1,5 +1,5 @@
-<ul class="mdc-list">
-  <li class="mdc-list-item" v-for="post in posts" :key="post.slug">
+<div class="mdc-list">
+  <div class="mdc-list-item" v-for="post in posts" :key="post.slug">
     <span class="mdc-list-item__text">
     <h3 v-if="post.slug.slice(0,4) !== posts[index + 1]?.slug.slice(0,4)">
       {{ post.slug.slice(0,4) }}
@@ -8,8 +8,8 @@
     <p class="text-caption">{{ post.excerpt }}</p>
     <p>{{ post.description }}</p>
     </span>
-  </li>
-</ul>
+  </div>
+</div>
 
 <style>
 @use "@material/list/mdc-list";
