@@ -14,7 +14,8 @@ const { frontmatter, page } = useData()
 
 <style>
 p {
-  padding: 0.4rem;
+  margin-top: 1.618rem;
+  margin-bottom: 1.618rem;
 }
 
 ol,
@@ -62,13 +63,14 @@ code>span {
 
 h2 {
   font-weight: 800;
+  margin-top: 1.618rem;
 }
 
 .text-h2 {
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 800;
-  margin: 0;
+  margin: 1.618rem;
 }
 
 h1 {
