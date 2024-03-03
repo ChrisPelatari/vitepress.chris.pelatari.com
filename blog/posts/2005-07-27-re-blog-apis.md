@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; Blog APIs
+title: RE - Blog APIs
 date: 2005-07-27 23:38
 author: chrispelatari
 ---
