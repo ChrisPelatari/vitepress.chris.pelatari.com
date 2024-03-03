@@ -1,4 +1,4 @@
-<ul class="mdc-list" style="list-style:none;">
+<ul class="mdc-list">
   <li class="mdc-list-item" v-for="post in posts" :key="post.slug">
     <span class="mdc-list-item__text">
     <h3 v-if="post.slug.slice(0,4) !== posts[index + 1]?.slug.slice(0,4)">
@@ -15,7 +15,7 @@
 @use "@material/list/mdc-list";
 @include list.core-styles;
 
-li {
+ul, li {
   list-style: none;
 }
 </style>
