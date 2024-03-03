@@ -14,8 +14,11 @@ const { frontmatter, page } = useData()
 
 <style>
 p {
-  margin: 1.618rem !important;
+  margin: 0 !important;
+  margin-top: 1.618rem !important;
+  margin-bottom: 1.618rem !important;
   padding: 0 !important;
+  line-height: 1.618rem;
 }
 
 ol,
