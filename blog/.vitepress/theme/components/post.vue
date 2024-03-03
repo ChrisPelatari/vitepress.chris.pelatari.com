@@ -20,7 +20,7 @@ p {
 ol,
 ul {
   margin: 1rem;
-  list-style-position: outside;
+  list-style-position: outside !important;
 }
 
 ol li {
