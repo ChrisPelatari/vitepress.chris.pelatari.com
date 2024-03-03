@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; PostXING Review - Yet Another Blog Posting Client
+title: RE - PostXING Review - Yet Another Blog Posting Client
 date: 2005-11-15 00:56
 author: chrispelatari
 ---

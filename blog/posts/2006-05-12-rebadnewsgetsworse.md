@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; Bad news gets worse
+title: RE - Bad news gets worse
 date: 2006-05-12 14:53
 author: chrispelatari
 ---

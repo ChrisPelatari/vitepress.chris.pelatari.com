@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PSKit&#58; FormView initial thoughts
+title: PSKit - FormView initial thoughts
 ---
 <p><a href="http://bluefenix.net/">I've been playing with the Personal Website 
 Starter Kit a little bit lately</a>. One thing that I didn't like about it from 

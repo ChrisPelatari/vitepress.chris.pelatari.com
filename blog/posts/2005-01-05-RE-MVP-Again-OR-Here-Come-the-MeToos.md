@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE&#58; MVP Again OR Here Come the "MeToo's"
+title: RE - MVP Again OR Here Come the "MeToo's"
 ---
 <blockquote>
   <p><img height="128" alt="MVP Logo" hspace="0" src="http://aspsoft.blogs.com/jon/Logo_MVP_Small.jpg" width="128" align="right" border="0" />I just found out that I got the nod for Microsoft MVP again for 2005. 

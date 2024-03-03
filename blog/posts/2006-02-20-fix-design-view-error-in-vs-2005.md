@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FIX&#58; Design View error in VS 2005
+title: FIX - Design View error in VS 2005
 date: 2006-02-20 19:20
 author: chrispelatari
 ---
