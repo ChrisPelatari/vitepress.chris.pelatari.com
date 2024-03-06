@@ -25,7 +25,7 @@ features:
 <div id="gh" data-login="ChrisPelatari"></div>
 
 
-<script src="/js/gh.js"></script>
+<script src="/assets/js/gh.js"></script>
 
 <style>
 p {
