@@ -126,4 +126,4 @@ async function main() {
     container.appendChild(card);
 }
 
-main()
+export default main;
