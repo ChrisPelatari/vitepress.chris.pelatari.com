@@ -5,7 +5,7 @@ permalink: /about/
 head:
   - - link
     - rel: 'stylesheet'
-      href: 'http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.css'
+      href: '/css/gh.css'
 
 hero:
   tagline: 'Chris Pelatari'
@@ -25,7 +25,7 @@ features:
 <div id="gh" data-login="ChrisPelatari"></div>
 
 
-<script src="http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
+<script src="/js/gh.js"></script>
 
 <style>
 p {
