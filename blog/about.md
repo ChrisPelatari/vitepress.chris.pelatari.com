@@ -2,10 +2,6 @@
 layout: home
 title: About
 permalink: /about/
-head:
-  - - link
-    - rel: 'stylesheet'
-      href: '/css/gh.css'
 
 hero:
   tagline: 'Chris Pelatari'
@@ -21,11 +17,6 @@ features:
   - title: Who are the AspInsiders?
     details: As a proud member of the <a href='https://aspinsiders.com'>AspInsiders</a>, I've had the opportunity to work closely with Microsoft, including being flown out to Microsoft campus in Redmond, WA to help shape the direction of ASP.NET MVC before it was open-sourced. I had the honor of meeting <a href='http://scottgu.com/'>Scott Guthrie</a> and <a href='https://github.com/ahejlsberg'>Anders Hejlsberg</a>, the original designer of C# and TypeScript.<br/><br/>I've also had the pleasure of collaborating with <a href='https://www.hanselman.com/'>Scott Hanselman</a>, <a href='https://bigmachine.io/'>Rob Conery</a> and <a href='https://aspinsiders.com/insiders/'>many others</a>, all of whom are brilliant and kind individuals.
 ---
-
-<div id="gh" data-login="ChrisPelatari"></div>
-
-
-<script src="/assets/js/gh.js"></script>
 
 <style>
 p {
