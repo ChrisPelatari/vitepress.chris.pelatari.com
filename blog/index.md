@@ -30,7 +30,6 @@ features:
 <style>
 img.VPImage.image-src {
   border-radius: 50%;
-  padding: 0.95rem;
 }
 
 .VPHero::before {
