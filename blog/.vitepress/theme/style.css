@@ -68,6 +68,7 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+  --vp-font-family-base: 'Avenir Next', 'Roboto', sans-serif;
 }
 
 /**
