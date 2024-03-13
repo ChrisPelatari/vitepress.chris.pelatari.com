@@ -1,7 +1,10 @@
 ---
-layout: page
+layout: post
 title: Meditations by Marcus Aurelius - Gregory Hays translation
-permalink: /meditations/
+description: A new translation, with an introduction, by Gregory Hays
+author: Marcus Aurelius Antoninus
+date: March 17, 180
+permalink: /meditations
 ---
 <div class="ma-5">
 <header id="header">
