@@ -72,13 +72,13 @@ img.VPImage.image-src {
 
 /* gh.css */
 :root {
-  --gh-bg-color: #0d1117;
+  --gh-bg-color: var(--vp-c-default-3);
   --gh-base-size-4: 0.25rem;
   --gh-base-size-8: 0.5rem;
   --gh-base-size-12: 0.75rem;
   --gh-base-size-16: 1rem;
   --gh-base-size-32: 2rem;
-  --gh-cell-level0-color: #21262d;
+  --gh-cell-level0-color: var(--vp-c-default-1);
   --gh-cell-level1-color: #0e4429;
   --gh-cell-level2-color: #006d32;
   --gh-cell-level3-color: #26a641;
@@ -88,7 +88,7 @@ img.VPImage.image-src {
   --gh-cell-border-color: rgba(255, 255, 255, 0.03);
   --gh-border-card-color: #30363d;
   --gh-border-card-width: max(1px, 0.0625rem);
-  --gh-text-default-color: #e6edf3;
+  --gh-text-default-color: var(--vp-c-default-0);
   --gh-text-inactive-color: #848D97;
   --gh-link-hover-color: #2f81f7;
   --gh-font-default-family: 'Avenir Next', Roboto, sans-serif;
