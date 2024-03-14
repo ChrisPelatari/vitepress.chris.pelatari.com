@@ -29,6 +29,7 @@ features:
 </div>
 
 <h2 class="title">Team Pelatari</h2>
+
 <VPTeamMembers :members="family"/>
 
 <style>
