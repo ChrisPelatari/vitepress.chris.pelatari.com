@@ -41,7 +41,7 @@ For number 4, I have added a dev script that uses concurrently to run both the r
 ```json
 # package.json
 "scripts": {
-  "dev": "concurrently \"bin/ember-cli server --environment=development\" \"RAILS_ENV=development bundle exec rails s\"",
+  "dev": "concurrently \"bin/ember-cli server --environment=development\" \"RAILS_ENV=development bin/rails server\"",
   ...
 }
 ```
