@@ -15,6 +15,7 @@
 <style>
 @use "@material/list/mdc-list";
 @include list.core-styles;
+
 .description {
   margin-top: 1.618rem;
   padding: 0;
