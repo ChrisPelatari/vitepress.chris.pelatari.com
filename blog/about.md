@@ -274,6 +274,7 @@ img.VPImage.image-src {
 import { ref, onMounted } from 'vue'
 
 onMounted(() => {
+  document.querySelector('.vp-doc').classList.remove('vp-doc')
   main()
 })
 
