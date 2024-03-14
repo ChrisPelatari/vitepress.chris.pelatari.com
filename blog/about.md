@@ -91,7 +91,7 @@ img.VPImage.image-src {
   --gh-text-default-color: #e6edf3;
   --gh-text-inactive-color: #848D97;
   --gh-link-hover-color: #2f81f7;
-  --gh-font-default-family: Roboto, sans-serif;
+  --gh-font-default-family: 'Avenir Next', Roboto, sans-serif;
 }
 
 /* Main block */
