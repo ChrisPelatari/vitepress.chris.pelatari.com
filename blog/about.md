@@ -42,9 +42,6 @@ features:
   margin-right: auto;
   margin-top: 2.5rem;
 }
-img.VPImage.image-src {
-  border-radius: none;
-}
 
 img {
   max-width: 100%;
