@@ -1,7 +1,7 @@
 ---
 layout: home
 title: About
-permalink: /about/
+permalink: /about
 
 hero:
   tagline: 'Chris Pelatari'
@@ -28,9 +28,6 @@ features:
 </div>
 
 <style>
-@use "@material/list/mdc-list";
-@include list.core-styles;
-
 .text-center {
   text-align: center;
 }
