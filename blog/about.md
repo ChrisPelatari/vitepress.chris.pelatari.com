@@ -42,6 +42,9 @@ features:
   margin-right: auto;
   margin-top: 2.5rem;
 }
+img.VPImage.image-src {
+  border-radius: none;
+}
 
 img {
   max-width: 100%;
@@ -287,19 +290,19 @@ const members = [
 const family = [
   {
     name: 'The Dread Pirate Jojo and Jen',
-    avatar: '/assets/images/the_soveriegn_nation_of_snugland.jpeg'
+    avatar: '/images/the_soveriegn_nation_of_snugland.jpeg'
   },
   {
     name: 'Schmoopie',
-    avatar: '/assets/images/IMG_3184.png'
+    avatar: '/images/IMG_3184.png'
   },
   {
     name: 'Ziggy Stardog',
-    avatar: '/assets/images/IMG_6134.png'
+    avatar: '/images/IMG_6134.png'
   },
   {
     name: 'Beyoncè',
-    avatar: '/assets/images/IMG_3335.png'
+    avatar: '/images/IMG_3335.png'
   }
 ]
 
