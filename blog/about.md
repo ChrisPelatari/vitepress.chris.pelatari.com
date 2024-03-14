@@ -305,6 +305,7 @@ const family = [
 
 onMounted(() => {
   document.querySelector('.vp-doc').classList.remove('vp-doc')
+  document.querySelector('.image-src').classList.remove('image-src')
   main()
 })
 
