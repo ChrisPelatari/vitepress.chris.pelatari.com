@@ -27,11 +27,18 @@ features:
 </a>
 </div>
 
-<h2 class="title">Team Pelatari</h2>
+<h2 class="team-title">Team Pelatari</h2>
 
 <VPTeamMembers :members="family"/>
 
 <style>
+.team-title {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
 .text-center {
   text-align: center;
 }
