@@ -223,7 +223,7 @@ p.details {
   text-align: center !important;
   margin-right: var(--gh-base-size-8, 8px) !important;
   margin-left: var(--gh-base-size-8, 8px) !important;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 /* Header */
