@@ -11,7 +11,7 @@ hero:
 
 features:
   - title: Who am I?
-    details: I'm a seasoned software developer with over 23 years of experience in delivering full-stack web applications using .NET technologies, including C# and VB.NET. More recently, I've been working with TypeScript and Node.js, sometimes with an asp.net core backend.
+    details: I'm a seasoned software developer with over 23 years of experience in delivering full-stack web applications using .NET technologies, including C# and VB.NET. More recently, I've been working with TypeScript and Node.js, sometimes with an asp.net core backend.<br/><br/><h2 class="title">Hire me.</h2>I'm currently in the market for a new opportunity. If you're looking for a senior software developer with a strong background in .NET, TypeScript, and SQL Server, I'd love to hear from you. Please feel free to reach out to me at <a href="mailto:chris@bluefenix.net">chris@bluefenix.net</a>. I'm also available for consulting and contract work. Here's my <a href="/Chris_Pelatari_Resume.docx">resume</a>.<br/><br/><h2 class="title">What I'm looking for.</h3> I'm looking for a company that repects its employees and has a strong culture of learning and growth. Only open to remote opportunities at this time, but once a week hybrid in the greater Houston area is also acceptable.
   - title: What do I do?
     details: I focus on delivering properly tested and scalable applications that are backed by SQL Server. I have a strong understanding of software development best practices, including object-oriented programming, test-driven development, and continuous integration and deployment.<br/><br/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chrispelatari&hide_border=true&layout=compact&hide=perl,php&theme=blue-green" alt="Top Languages" />
   - title: Who are the AspInsiders?
@@ -287,8 +287,8 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const family = [
   {
-    name: 'The Dread Pirate Jojo and Jen',
-    avatar: '/images/the_soveriegn_nation_of_snugland.jpeg'
+    name: 'The Dread Pirate Jojo',
+    avatar: '/images/IMG_3519.png'
   },
   {
     name: 'Schmoopie',
@@ -296,19 +296,19 @@ const family = [
   },
   {
     name: 'Ziggy Stardog',
-    avatar: '/images/IMG_6134.png'
+    avatar: '/images/IMG_3268.png'
   },
   {
     name: 'Beyoncè',
     avatar: '/images/IMG_3335.png'
   },
   {
-    name: 'Chris Pelatari',
-    avatar: '/images/IMG_1996.png'
+    name: 'My lovely wife, Jen and I',
+    avatar: '/images/IMG_3174.png'
   },
   {
     name: 'Ozzy',
-    avatar: '/images/IMG_3481.png'
+    avatar: '/images/IMG_3812.png'
   }
 ]
 
