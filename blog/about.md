@@ -11,7 +11,7 @@ hero:
 
 features:
   - title: Who am I?
-    details: I'm a seasoned software developer with over 23 years of experience in delivering full-stack web applications using .NET technologies, including C# and VB.NET. More recently, I've been working with TypeScript and Node.js, sometimes with an asp.net core backend. I'm also a Microsoft MVP and a member of the AspInsiders.
+    details: I'm a seasoned software developer with over 23 years of experience in delivering full-stack web applications using .NET technologies, including C# and VB.NET. More recently, I've been working with TypeScript and Node.js, sometimes with an asp.net core backend. I'm also a former Microsoft MVP and a member of the AspInsiders.
   - title: What do I do?
     details: I focus on delivering properly tested and scalable applications that are backed by SQL Server. I have a strong understanding of software development best practices, including object-oriented programming, test-driven development, and continuous integration and deployment.<br/><br/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chrispelatari&hide_border=true&layout=compact&hide=perl,php&theme=blue-green" alt="Top Languages" />
   - title: Who are the AspInsiders?
