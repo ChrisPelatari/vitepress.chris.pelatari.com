@@ -303,7 +303,7 @@ const family = [
     avatar: '/images/IMG_3268.png'
   },
   {
-    name: 'Beyoncé',
+    name: 'Beyoncé Meows',
     avatar: '/images/IMG_3335.png'
   },
   {
