@@ -292,7 +292,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 const family = [
   {
     name: 'The Dread Pirate Jojo',
-    avatar: '/images/IMG_3585.png'
+    avatar: '/images/The_Dread_Pirate_JoJo.png'
   },
   {
     name: 'Schmoopie',
