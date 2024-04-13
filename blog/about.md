@@ -300,7 +300,7 @@ const family = [
   },
   {
     name: 'Ziggy Stardog',
-    avatar: '/images/IMG_3268.png'
+    avatar: '/images/ziggy_stardog.png'
   },
   {
     name: 'Beyoncé Meows',
