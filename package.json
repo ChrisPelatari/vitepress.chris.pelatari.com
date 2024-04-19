@@ -1,4 +1,36 @@
 {
+  "name": "chris.pelatari.com",
+  "description": "professional geek ramblings",
+  "author": "Chris Pelatari <chris@bluefenix.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpelatari/vitepress.chris.pelatari.com.git"
+  },
+  "homepage": "https://chris.pelatari.com/about",
+  "keywords": [
+    "vitepress",
+    "vite",
+    "vue",
+    "vuetify",
+    "C#",
+    "dotnet",
+    "javascript",
+    "typescript",
+    "node",
+    "nodejs",
+    "web",
+    "development",
+    "blog",
+    "chris",
+    "pelatari",
+    "bluefenix",
+    "professional",
+    "geek",
+    "ramblings"
+  ],
+  "private": true,
+  "main": "index.md",
   "type": "module",
   "devDependencies": {
     "@jamescoyle/vue-icon": "^0.1.2",
@@ -10,8 +42,6 @@
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
     "path": "^0.12.7",
-    "react": "^18.2.0",
-    "react-github-calendar": "^4.1.2",
     "remove-markdown": "^0.5.0",
     "unplugin-auto-import": "^0.17.5",
     "vite-plugin-vuetify": "^2.0.1",
@@ -30,5 +60,5 @@
   "dependencies": {
     "@mdi/font": "^7.4.47"
   },
-  "version": "3.2.314"
+  "version": "3.2.419"
 }
