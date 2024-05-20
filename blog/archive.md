@@ -2,8 +2,8 @@
   <div class="mdc-list-item elevated" v-for="post in posts" :key="post.slug">
     <span class="mdc-list-item__ripple"></span>
     <span class="mdc-list-item__text">
-      <h3 v-if="post.slug.slice(0,4) !== posts[index + 1]?.slug.slice(0,4)">
-        {{ post.slug.slice(0,4) }}
+      <h3>
+        {{ new Date(post.slug.slice(0, 10)).toDateString() }}
       </h3>
       <a :href="`/posts/${post.slug}`">{{post.title}}</a>
       <div class="description">{{ post.description }}</div>
