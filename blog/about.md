@@ -434,15 +434,19 @@ function init_header(total_contribs, ghLogin, avatarUrl) {
 function init_thumbnail() {
     const thumbnail = document.createElement("div");
     const thumbNailLink = document.createElement("a");
-    const thumbnailImage = document.createElement("img");
+    const thumbNailIcon = document.createElement("span");
+    const thumbNailText = document.createElement("span");
 
     thumbnail.className = "ghThumbNail";
     thumbNailLink.href = "https://github.com/lengthylyova/gh-contrib-graph";
-    thumbnailImage.src = "http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/thumbnail.png";
-    thumbnailImage.style.width = "150px";
-    thumbnailImage.style.marginTop = "10px";
-    thumbnailImage.alt = "GitHub Contribution Graph";
-    thumbNailLink.appendChild(thumbnailImage);
+    //use vitepress github icon
+    thumbNailIcon.textContent = "GitHub";
+    thumbNailIcon.className = "vpi-social-github";
+    //link to gh-contrib-graph
+    thumbNailText.textContent = "gh-contrib-graph";
+    thumbNailText.style.marginLeft = "-13px";
+    thumbNailLink.appendChild(thumbNailIcon);
+    thumbNailLink.appendChild(thumbNailText);
     thumbnail.appendChild(thumbNailLink);
     return thumbnail
 }
