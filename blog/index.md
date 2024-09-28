@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Latest Post
-      link: /posts/2024-03-02-discourse-fresh-install
+      link: /posts/2024-09-28-handling-404-in-a-spa-deployed-to-github-pages
     - theme: alt
       text: Archive
       link: /archive
@@ -20,8 +20,8 @@ features:
     details: w00t! First post!
     link: /posts/2003-02-07-WOOT-FIRST-POST
   - title: How it's going
-    details: Discourse Fresh Install on Mac OS
-    link: /posts/2024-03-02-discourse-fresh-install
+    details: Handling 404 in a SPA deployed to GitHub Pages
+    link: /posts/2024-09-28-handling-404-in-a-spa-deployed-to-github-pages
   - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
