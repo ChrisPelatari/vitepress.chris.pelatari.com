@@ -10,8 +10,7 @@ Credit where it's due, I found this via [this blog post](https://dev.to/lico/han
 
 I recently deployed a Single Page Application (SPA) to GitHub Pages. Everything was working great until I tried to refresh the page. When I did that, I got a 404 error. This is because GitHub Pages doesn't support SPA routing out of the box. This is how I fixed it.
 
-## I simply added an echo statement to the command that builds the SPA for those of us who like to see what's going on
-
+## I simply added an echo statement to the command that builds the SPA for those of us who like to see what's going on during the build process.
 
 ```
 "build": "vue-tsc --noEmit && vite build --mode production && echo 'copying index.html to 404.html in ./dist' && cp ./dist/index.html ./dist/404.html",
