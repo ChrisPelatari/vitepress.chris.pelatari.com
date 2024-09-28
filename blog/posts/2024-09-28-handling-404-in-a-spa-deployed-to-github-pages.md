@@ -12,7 +12,9 @@ I recently deployed a Single Page Application (SPA) to GitHub Pages. Everything 
 
 ## I simply added an echo statement to the command that builds the SPA for those of us who like to see what's going on during the build process.
 
-```
+The meat of the addition is the cp command, but there's no visual feedback that it's working. I added the echo statement to let me know that the cp command is running.
+
+```json
 "build": "vue-tsc --noEmit && vite build --mode production && echo 'copying index.html to 404.html in ./dist' && cp ./dist/index.html ./dist/404.html",
 ```
 
