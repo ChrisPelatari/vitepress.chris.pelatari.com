@@ -25,12 +25,14 @@ const currentDate = new Date().toISOString().split('T')[0]
 const fileName = `${currentDate}-${formattedTitle}.md`
 
 // create the contents of the file with the front matter
-const fileContents = `---
-layout: post
-title: ${title}
-date: ${currentDate}
-categories: []
-author: chrispelatari
+const fileContents = 
+`---
+  layout: post
+  title: ${title}
+  date: ${currentDate}
+  categories: []
+  author: chrispelatari
+  excerpt:
 ---
 
 `
