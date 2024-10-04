@@ -3,7 +3,7 @@ https://chris.pelatari.com
 ## step1: create a new post
 
 ```bash
-$ node create-post.mjs "Put a nifty title here"
+$ yarn post "Why do programmers prefer dark mode? Because light attracts bugs!"
 ```
 
 ## step2: edit the new post
