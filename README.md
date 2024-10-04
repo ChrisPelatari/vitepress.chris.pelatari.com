@@ -13,9 +13,9 @@ $ yarn post "Why do programmers prefer dark mode? Because light attracts bugs!"
 ```yaml
 ---
 layout: post
-title: Put a nifty title here
+title: Why do programmers prefer dark mode? Because light attracts bugs!
 date: 2024-09-28
-categories: [GitHub Pages, SPA]
+categories: [dad_jokes]
 author: chrispelatari
 ---
 ```
@@ -34,6 +34,7 @@ yarn archive
 ```
 
 ## step4: add the new post to the home page
+TODO: script this
 
 ```yaml
 ---
@@ -61,6 +62,7 @@ features:
 ```
 
 ## step5: copy the new post to the archive.md at the end of the javascript array
+TODO: script this
 
 ```javascript
 const archive = [
