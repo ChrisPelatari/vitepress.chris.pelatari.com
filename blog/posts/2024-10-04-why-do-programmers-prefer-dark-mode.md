@@ -4,7 +4,7 @@
   date: 2024-10-04
   categories: [dad_jokes]
   author: chrispelatari
-  excerpt: I mean really, everything is light and possibility before it's observed. That's why you should have written your tests first. But I digress.
+  excerpt: I mean really, everything is light and possibility until it's observed. That's why you should have written your tests first. But I digress.
 ---
 
 # Why do programmers prefer dark mode? Because light attracts bugs! 😂
