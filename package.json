@@ -55,7 +55,8 @@
     "preview": "vitepress preview blog --port 8484",
     "version": "node ./version.mjs",
     "v": "node ./version.mjs",
-    "archive": "node ./collect-archive.mjs"
+    "archive": "node ./collect-archive.mjs",
+    "post": "node ./create-post.mjs "
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
