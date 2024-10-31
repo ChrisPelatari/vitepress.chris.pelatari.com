@@ -313,6 +313,10 @@ const family = [
   {
     name: 'Ozzy Pawsborne',
     avatar: '/images/IMG_3618.png'
+  },
+  {
+    name: 'Stubbs',
+    avatar: '/images/Stubalupogus.png'
   }
 ]
 

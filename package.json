@@ -50,7 +50,7 @@
     "vuetify": "^3.5.4"
   },
   "scripts": {
-    "dev": "vitepress dev blog --port 4242",
+    "dev": "vitepress dev blog --port 4242 --host",
     "build": "vitepress build blog",
     "preview": "vitepress preview blog --port 8484",
     "version": "node ./version.mjs",
@@ -62,5 +62,5 @@
     "@mdi/font": "^7.4.47",
     "date-fns": "^3.6.0"
   },
-  "version": "3.2.928"
+  "version": "3.2.1024"
 }
