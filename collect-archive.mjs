@@ -22,6 +22,68 @@ const data = posts.map((post) => {
 // Remove the last element of the array, which is undefined/null
 let postsOnly = data.slice(0, data.length - 1)
 
+// get the last post in the array
+const lastPost = data[data.length - 2]
+
+// get the last post's slug
+const lastPostSlug = lastPost.slug
+
+// get the last post's title
+const lastPostTitle = lastPost.title
+
+// add these values to /blog/index.md in the correct position
+const index = fs.readFileSync('./blog/index.md', 'utf-8')
+
+// write the updated front matter to the index.md file
+const updatedIndex = `---
+layout: home
+
+hero:
+  tagline: 'professional geek ramblings'
+  image:
+    src: '/images/IMG_1996.png'
+    alt: 'Chris Pelatari | Blue Fenix Productions'
+  actions:
+    - theme: brand
+      text: Latest Post
+      link: /blog/posts/${lastPostSlug}
+    - theme: alt
+      text: Archive
+      link: /archive 
+features:
+  - title: How it started
+    details: w00t! First post!
+    link: /posts/2003-02-07-WOOT-FIRST-POST
+  - title: How it's going
+    details: ${lastPostTitle}
+    link: /blog/posts/${lastPostSlug}
+  - title: How it once was
+    details: Andre 3 stacks in NY
+    link: /posts/2008-11-22-andre-3-stacks-in-ny
+---
+
+<style>
+img.VPImage.image-src {
+  border-radius: 50%;
+}
+
+.VPHero::before {
+  content: url('/images/header_transparent.png');
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .VPHero::before {
+    content: url('/images/header_transparent_mobile.png');
+  }
+}
+</style>
+`
+
+fs.writeFileSync('./blog/index.md', updatedIndex, 'utf-8')
+
+// write the updated posts.json file
 fs.writeFileSync(
   'blog/posts.json',
   JSON.stringify(postsOnly),
