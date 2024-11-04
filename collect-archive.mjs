@@ -46,7 +46,7 @@ hero:
   actions:
     - theme: brand
       text: Latest Post
-      link: /blog/posts/${lastPostSlug}
+      link: /posts/${lastPostSlug}
     - theme: alt
       text: Archive
       link: /archive 
@@ -56,7 +56,7 @@ features:
     link: /posts/2003-02-07-WOOT-FIRST-POST
   - title: How it's going
     details: ${lastPostTitle}
-    link: /blog/posts/${lastPostSlug}
+    link: /posts/${lastPostSlug}
   - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny

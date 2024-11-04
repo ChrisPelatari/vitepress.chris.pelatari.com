@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Latest Post
-      link: /blog/posts/2024-10-04-why-do-programmers-prefer-dark-mode
+      link: /posts/2024-10-04-why-do-programmers-prefer-dark-mode
     - theme: alt
       text: Archive
       link: /archive 
@@ -19,7 +19,7 @@ features:
     link: /posts/2003-02-07-WOOT-FIRST-POST
   - title: How it's going
     details: Why do programmers prefer dark mode? Because light attracts bugs
-    link: /blog/posts/2024-10-04-why-do-programmers-prefer-dark-mode
+    link: /posts/2024-10-04-why-do-programmers-prefer-dark-mode
   - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
