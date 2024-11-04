@@ -59,10 +59,10 @@ export default defineConfig({
   appearance: 'dark',
   buildEnd: async (config: SiteConfig) => {
     const feed = new Feed({
-      title: 'Blue Fenix',
+      title: 'Blue Fenix Productions',
       description: 'professional geek ramblings',
       id: hostname,
-      link: hostname,
+      link: `${hostname}/about`,
       language: 'en',
       image: `${hostname}/IMG_1996.png`,
       favicon: `${hostname}/favicon.ico`,
