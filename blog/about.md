@@ -19,7 +19,7 @@ features:
 ---
 ## Hire me
 
-I'm currently in the market for a new opportunity. If you're looking for a senior software developer/team lead with a strong background in delivering modern and legacy solutions, I'd love to hear from you. Please feel free to reach out to me at <a href="mailto:chris@bluefenix.net">chris@bluefenix.net</a>. I'm also available for consulting and contract work. Here's my <a href="https://chris-jekyll.pelatari.com/Chris_Pelatari_Resume.docx">resume</a>.
+I'm currently in the market for a new opportunity. If you're looking for a senior software developer/team lead with a strong background in delivering modern and legacy solutions, I'd love to hear from you. Please feel free to reach out to me at <a href="mailto:chris@bluefenix.net">chris@bluefenix.net</a>. I'm also available for consulting and contract work. Here's my <a href="https://chris-jekyll.pelatari.com/PelatariChris_Resume.docx">resume</a>.
 
 ## What I'm looking for
 
