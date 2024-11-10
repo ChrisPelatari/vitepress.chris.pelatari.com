@@ -61,7 +61,7 @@ Create a local.settings.json file in the root of your project to store your Stri
 ```json
 {
   "Stripe": {
-    "SecretKey": "sk_test_51
+    "SecretKey": "sk_test_51"
   }
 }
 ```
