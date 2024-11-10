@@ -64,7 +64,7 @@ builder.Services.AddCors(options =>
 {
   options.AddPolicy("AllowSpecificOrigin", builder =>
   {
-    builder.WithOrigins("http://localhost:4000", "http://127.0.0.1:4000", "https://itachi.local:4000", "https://wildwildwestbmc.com")
+    builder.WithOrigins("http://localhost:4000", "http://127.0.0.1:4000","https://yourfrontend.com")
       .AllowAnyHeader()
       .AllowAnyMethod();
   });
