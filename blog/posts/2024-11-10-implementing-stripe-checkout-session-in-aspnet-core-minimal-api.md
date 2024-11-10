@@ -38,23 +38,6 @@ Add the Stripe.NET NuGet package to the project:
 dotnet add package Stripe.net
 ```
 
-## Configuring CORS
-
-Add the CORS policy to the `Program.cs` file:
-
-```csharp
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddCors(options =>
-{
-    options.AddDefaultPolicy(builder =>
-    {
-        builder.WithOrigins("http://localhost:8080")
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
-});
-```
 ## Configure local.settings.json
 Create a local.settings.json file in the root of your project to store your Stripe API key:
 
