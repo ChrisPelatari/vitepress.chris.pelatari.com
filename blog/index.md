@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Latest Post
-      link: /posts/2024-10-04-why-do-programmers-prefer-dark-mode
+      link: /posts/2024-11-10-implementing-stripe-checkout-session-in-aspnet-core-minimal-api
     - theme: alt
       text: Archive
       link: /archive 
@@ -18,8 +18,8 @@ features:
     details: w00t! First post!
     link: /posts/2003-02-07-WOOT-FIRST-POST
   - title: How it's going
-    details: Why do programmers prefer dark mode? Because light attracts bugs
-    link: /posts/2024-10-04-why-do-programmers-prefer-dark-mode
+    details: Implementing Stripe Checkout Session in ASP.NET Core Minimal API
+    link: /posts/2024-11-10-implementing-stripe-checkout-session-in-aspnet-core-minimal-api
   - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
