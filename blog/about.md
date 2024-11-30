@@ -308,7 +308,7 @@ const family = [
   },
   {
     name: 'My lovely wife Jen and I',
-    avatar: '/images/IMG_6525.png'
+    avatar: '/images/IMG_6525.jpeg'
   },
   {
     name: 'Ozzy Pawsborne',
