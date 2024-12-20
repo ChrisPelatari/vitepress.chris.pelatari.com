@@ -10,26 +10,33 @@ hero:
     alt: 'Blue Fenix'
 
 features:
-  - title: Who am I?
-    details: I'm a seasoned software developer with over 20 years of experience in delivering full-stack web and desktop applications using .NET technologies, including C# and VB.NET. More recently, I've been working with TypeScript and Node.js, sometimes with an asp.net core backend. I'm also a former Microsoft MVP and a member of the AspInsiders.
-  - title: What do I do?
-    details: I focus on delivering properly tested and scalable applications that are backed by SQL Server or PostgreSQL. I have a strong understanding of software development best practices, including object-oriented programming, test-driven development, and continuous integration and deployment.<br/><br/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chrispelatari&hide_border=true&layout=compact&hide=perl,php&theme=blue-green" alt="Top Languages" />
+  - title: About Me
+    details: I'm a passionate software developer with over 20 years of experience crafting full-stack web and desktop applications using dotnet technologies like C# and VB.NET. Lately, I've been diving into TypeScript and Node.js, often paired with an ASP.NET Core backend. I'm also proud to be a former Microsoft MVP and a member of the AspInsiders community.
+  - title: What have you done?
+    details: Throughout my career, I've had the privilege of collaborating with industry leaders such as <a href='https://www.hanselman.com/'>Scott Hanselman</a>, <a href='https://bigmachine.io/'>Rob Conery</a>, and <a href='https://aspinsiders.com/insiders/'>many others</a>, all of whom are brilliant and kind individuals.<br/><br/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chrispelatari&hide_border=true&layout=compact&hide=perl,php&theme=blue-green" alt="Top Languages" />
   - title: Who are the AspInsiders?
-    details: As a proud member of the <a href='https://aspinsiders.com'>AspInsiders</a>, I've had the opportunity to work closely with Microsoft, including being flown out to Microsoft campus in Redmond, WA to help shape the direction of ASP.NET MVC before it was open-sourced. I had the honor of meeting <a href='http://scottgu.com/'>Scott Guthrie</a> and <a href='https://github.com/ahejlsberg'>Anders Hejlsberg</a>, the original designer of C# and TypeScript.<br/><br/>I've also had the pleasure of collaborating with <a href='https://www.hanselman.com/'>Scott Hanselman</a>, <a href='https://bigmachine.io/'>Rob Conery</a> and <a href='https://aspinsiders.com/insiders/'>many others</a>, all of whom are brilliant and kind individuals.
+    details: As a member of the <a href='https://aspinsiders.com'>AspInsiders</a>, I've had the opportunity to work closely with Microsoft, including being flown out to Microsoft campus in Redmond, WA to help shape the direction of ASP.NET MVC before it was open-sourced.
 ---
-## Hire me
 
-I'm currently in the market for a new opportunity. If you're looking for a senior software developer/team lead with a strong background in delivering modern and legacy solutions, I'd love to hear from you. Please feel free to reach out to me at <a href="mailto:chris@pelatari.com">chris@pelatari.com</a>. I'm also available for consulting and contract work. Here's my <a href="https://chris-jekyll.pelatari.com/PelatariChris_Resume.docx">resume</a>.
+<br/>
 
-## What I'm looking for
+# Hire Me
 
-I'm looking for a company that repects its employees and has a strong culture of learning and growth. I’m open to remote or hybrid roles in the Houston metro area.
+With extensive experience in software development and team leadership, I specialize in delivering high-quality solutions with a strong focus on user experience (UX). I'm passionate about driving projects to success and fostering a collaborative team environment. Whether you're looking for a full-time role, consulting, or contract work, I'm ready to bring my expertise to your team.
+
+Feel free to reach out to me at <a href="mailto:chris@pelatari.com">chris@pelatari.com</a>, check out my <a href="https://github.com/ChrisPelatari">GitHub profile</a> and take a look at my <a href="https://chris-jekyll.pelatari.com/PelatariChris_Resume.docx">resume</a> for more details on my experience and skills.
+
+# What I'm Looking For
+
+I'm seeking a company that values empathy and encourages growth. I'm open to remote or hybrid roles in the West Houston area. Let's connect and explore how I can contribute to your success!
 
 <div id="gh" data-login="ChrisPelatari">
   <a href='https://hachyderm.io/@blue_fenix' alt="blue_fenix on Mastodon" rel="me"> <svg xmlns="http://www.w3.org/2000/svg" height="24" width="21" viewBox="0 0 448 512"><path fill="#7f7f7f" d="M433 179.1c0-97.2-63.7-125.7-63.7-125.7-62.5-28.7-228.6-28.4-290.5 0 0 0-63.7 28.5-63.7 125.7 0 115.7-6.6 259.4 105.6 289.1 40.5 10.7 75.3 13 103.3 11.4 50.8-2.8 79.3-18.1 79.3-18.1l-1.7-36.9s-36.3 11.4-77.1 10.1c-40.4-1.4-83-4.4-89.6-54a102.5 102.5 0 0 1 -.9-13.9c85.6 20.9 158.7 9.1 178.8 6.7 56.1-6.7 105-41.3 111.2-72.9 9.8-49.8 9-121.5 9-121.5zm-75.1 125.2h-46.6v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.3V197c0-58.5-64-56.6-64-6.9v114.2H90.2c0-122.1-5.2-147.9 18.4-175 25.9-28.9 79.8-30.8 103.8 6.1l11.6 19.5 11.6-19.5c24.1-37.1 78.1-34.8 103.8-6.1 23.7 27.3 18.4 53 18.4 175z"/></svg></a>
 </div>
+<br/>
 
-## Team Pelatari
+# The Pelatari Menagerie
+<br/>
 
 <VPTeamMembers :members="family"/>
 
@@ -307,15 +314,15 @@ const family = [
     avatar: '/images/IMG_3335.png'
   },
   {
-    name: 'My lovely wife Jen and I',
-    avatar: '/images/IMG_0981.jpeg'
+    name: 'Former and current zookeepers',
+    avatar: '/images/IMG_3174.png'
   },
   {
     name: 'Ozzy Pawsborne',
     avatar: '/images/IMG_3618.png'
   },
   {
-    name: 'Stubbs',
+    name: 'Stubbalupogus',
     avatar: '/images/Stubalupogus.png'
   }
 ]
