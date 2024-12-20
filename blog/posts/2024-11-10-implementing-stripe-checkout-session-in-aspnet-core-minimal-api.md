@@ -13,15 +13,15 @@
 
 There are many, many examples of Stripe integration on the web, including videos. Here's the problem with *every single other example*: they HARD CODE values for processing payments. 😩
 
-So, I will walk through my implementation of a Stripe Checkout session using ASP.NET Core Minimal API. This approach leverages the simplicity and performance of minimal APIs while integrating with Stripe for payment processing. I'll cover setting up the project, configuring CORS, and implementing the Stripe Checkout session.
+So, I will walk through my server side implementation of a Stripe Checkout session using ASP.NET Core Minimal API. This approach leverages the simplicity and performance of minimal APIs while integrating with the Stripe.NET nuget package for payment processing. I'll cover setting up the project, configuring CORS, and implementing the Stripe Checkout session.
 
-TL;DR: The secret sauce is model binding in the API call, you must build up the dynamic cart contents from your front end.
+TL;DR: The secret sauce is model binding in the API call, you must build up the dynamic cart contents from your front end. I have implemented front ends in both Vue.js and simple vanilla JavaScript with html. I will leave that part up to you, dear reader.
 
 ## Prerequisites
 
-- .NET 8 SDK
+- dotnet 8 SDK or later
 - Stripe account with API keys
-- Front-end application (I used Vue.js)
+- Front-end application 
 
 ## Setting up the project
 
@@ -103,7 +103,7 @@ app.MapPost("/api/CreateCheckoutSession", async (List<SessionLineItemOptions> li
 app.Run();
 ```
 
-### The key here is the `MapPost` method, which accepts a list of `SessionLineItemOptions` as a parameter. This allows you to pass dynamically sized cart contents from the front end to the API. Not just a single T-shirt.
+### The key here is the `MapPost` method, which accepts a list of `SessionLineItemOptions` as a parameter. This allows you to pass dynamically sized cart contents from the front end to the API. (not just a single T-shirt)
 
 ## Front-end implementation test
 
@@ -122,13 +122,14 @@ Content-Type: application/json
 ]
 ```
 
-You can specify lots of other properties if you would like to get more specific, but building items in the dashboard handles a lot of this for you. The above is the minimal implementation to get you started. It will work for that T-shirt if you set it up correctly in the Stripe dashboard. Building the front-end will likely change every two weeks anyways, so I leave that part up to you, dear reader.
+You can specify lots of other properties if you would like to get more specific, but building items in the dashboard handles a lot of this for you. The above is the minimal implementation to get you started. It will work for that T-shirt if you set it up correctly in the Stripe dashboard. Building the front-end will likely change every two weeks anyways (at least it often feels that way).
 
 ## Explanation
 - CORS Configuration: We configure CORS to allow requests from specific origins. This is crucial for enabling cross-origin requests from your frontend application.
 - Stripe Configuration: We set the Stripe API key from the configuration file.
 - Stripe Checkout Session: We define an endpoint /api/CreateCheckoutSession that accepts a list of SessionLineItemOptions. This endpoint creates a Stripe Checkout session and returns the session details.
+- REST Client Test: We test the endpoint using a REST client to create a checkout session with a single item. This could be expanded to handle multiple items with different quantities in a cart.
 
 ## Conclusion
 
-In this article, we implemented a Stripe Checkout session in an ASP.NET Core Minimal API project. We configured CORS, set up the Stripe API key, and created a Stripe Checkout session endpoint. This approach allows you to build a dynamic cart on the front end and pass the cart contents to the API for processing payments. I hope this helps you integrate Stripe Checkout in your ASP.NET Core Minimal API project. Happy coding! 🚀
+In this article, we implemented a Stripe Checkout session in an ASP.NET Core Minimal API project. We configured CORS, set up the Stripe API key, created a Stripe Checkout session endpoint, and end to end tested using a simple REST Client Test. This approach allows you to build a dynamic cart on the front end and pass the cart contents to the API for processing payments. I hope this helps you integrate Stripe Checkout in your ASP.NET Core Minimal API project. Happy coding! 🚀
