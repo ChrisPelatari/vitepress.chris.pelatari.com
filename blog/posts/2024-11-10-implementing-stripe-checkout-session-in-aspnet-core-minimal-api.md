@@ -7,7 +7,7 @@
   excerpt: I will walk through my implementation of a Stripe Checkout session using ASP.NET Core Minimal API. This approach leverages the simplicity and performance of minimal APIs while integrating with Stripe for payment processing. I'll cover setting up the project, configuring CORS, and implementing the Stripe Checkout session.
 ---
 
-# Implementing Stripe Checkout Session in ASP.NET Core Minimal API
+# Implementing a Stripe Checkout Session in ASP.NET Core Minimal API
 
 ## Introduction
 
