@@ -11,7 +11,7 @@ hero:
 
 features:
   - title: About Me
-    details: I'm an experienced software developer with over 20 years of  crafting full-stack web and desktop applications using dotnet technologies including C# and VB.NET under my belt. Lately, I've been diving into TypeScript and Node.js, often paired with an ASP.NET Core backend. I'm also proud to be a former Microsoft MVP and a member of the AspInsiders community.
+    details: I'm an experienced software developer with over 20 years of  crafting full-stack web and desktop applications using dotnet technologies including C# and VB.NET. Lately, I've been diving into TypeScript and Node.js, often paired with an ASP.NET Core backend. I'm also proud to be a former Microsoft MVP and a member of the AspInsiders community.
   - title: What have you done?
     details: Throughout my career, I've had the privilege of collaborating with industry leaders such as <a href='https://www.hanselman.com/'>Scott Hanselman</a>, <a href='https://bigmachine.io/'>Rob Conery</a>, and <a href='https://aspinsiders.com/insiders/'>many others</a>, all of whom are brilliant and kind individuals.<br/><br/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chrispelatari&hide_border=true&layout=compact&hide=perl,php&theme=blue-green" alt="Top Languages" />
   - title: Who are the AspInsiders?
