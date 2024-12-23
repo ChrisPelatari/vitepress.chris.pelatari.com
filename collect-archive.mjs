@@ -89,3 +89,27 @@ fs.writeFileSync(
   JSON.stringify(postsOnly),
   'utf-8'
 )
+
+// Read the existing archive.md file
+const archivePath = './blog/archive.md'
+let archiveContent = fs.readFileSync(archivePath, 'utf-8')
+
+// Read and parse the posts.json file
+const postsPath = './blog/posts.json'
+const postsContent = JSON.parse(fs.readFileSync(postsPath, 'utf-8'))
+
+// Convert posts array to JSON string
+const postsJsonString = JSON.stringify(postsContent, null, 2)
+
+// Replace the content of the posts constant within the <script setup> tag
+archiveContent = archiveContent.replace(
+  /const posts = \[.*?\];/s,
+  `const posts = ${postsJsonString};`
+)
+
+// Write the updated content back to archive.md
+fs.writeFileSync(archivePath, archiveContent, 'utf-8')
+
+console.log('Archive updated!')
+
+

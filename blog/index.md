@@ -21,7 +21,7 @@ features:
     details: Implementing Stripe Checkout Session in ASP.NET Core Minimal API
     link: /posts/2024-11-10-implementing-stripe-checkout-session-in-aspnet-core-minimal-api
   - title: How it once was
-    details: Andre 3000 and me in NYC
+    details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
 ---
 
