@@ -315,7 +315,7 @@ const family = [
   },
   {
     name: 'Former and current zookeepers',
-    avatar: '/images/IMG_3174.png'
+    avatar: '/images/IMG_0981.jpeg'
   },
   {
     name: 'Ozzy Pawsborne',
