@@ -295,6 +295,7 @@ p.details {
 <script setup>
 import { ref, onMounted } from 'vue'
 import { VPTeamMembers } from 'vitepress/theme'
+import contribs from './contributions.json'
 
 const family = [
   {
@@ -332,10 +333,50 @@ onMounted(() => {
   main()
 })
 
-async function fetchData(ghLogin) {
-  let response = await fetch(`https://lengthylyova.pythonanywhere.com/api/gh-contrib-graph/fetch-data/?githubLogin=${ghLogin}`, { method: "GET" })
-  let data = await response.json()
-  return data['data']['user']
+async function fetchData(ghLogin) { 
+  const data = 
+        await fetch('https://api.github.com/graphql', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer YOUR_GITHUB_TOKEN`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            query: `
+              query($login: String!) {
+                user(login: $login) {
+                  contributionsCollection {
+                    contributionCalendar {
+                      totalContributions
+                      months {
+                        name
+                        totalWeeks
+                      }
+                      weeks {
+                        contributionDays {
+                          date
+                          contributionCount
+                          contributionLevel
+                          weekday
+                        }
+                      }
+                      colors
+                    }
+                  }
+                  avatarUrl
+                }
+              }
+            `,
+            variables: {
+              login: ghLogin
+            }
+          })
+        })
+        .then(response => response.json())
+        .then(data => {
+          return data['user'];
+        })
+        .catch(error => console.error('Error fetching data:', error));
 }
 
 function init_table() {
@@ -362,7 +403,7 @@ function init_table() {
 }
 
 function addMonths(thead, months) {
-  for (let i = 0; i < months.length - 1; i++) {
+  for (let i = 0; i < months.length; i++) {
     const total_weeks = months[i]["totalWeeks"]
     if (total_weeks => 2) {
       let cell = thead.rows[0].insertCell()
@@ -443,36 +484,36 @@ function init_header(total_contribs, ghLogin, avatarUrl) {
 }
 
 function init_thumbnail() {
-    const thumbnail = document.createElement("div");
-    const thumbNailLink = document.createElement("a");
-    const thumbNailIcon = document.createElement("span");
-    const thumbNailText = document.createElement("span");
+    const thumbnail = document.createElement("div")
+    const thumbNailLink = document.createElement("a")
+    const thumbNailIcon = document.createElement("span")
+    const thumbNailText = document.createElement("span")
 
-    thumbnail.className = "ghThumbNail";
-    thumbNailLink.href = "https://github.com/lengthylyova/gh-contrib-graph";
+    thumbnail.className = "ghThumbNail"
+    thumbNailLink.href = "https://github.com/ChrisPelatari/gh-contrib-graph"
     //use vitepress github icon
     thumbNailIcon.textContent = "GitHub";
-    thumbNailIcon.className = "vpi-social-github";
+    thumbNailIcon.className = "vpi-social-github"
     //link to gh-contrib-graph
-    thumbNailText.textContent = "gh-contrib-graph";
-    thumbNailText.style.marginLeft = "-13px";
-    thumbNailLink.appendChild(thumbNailIcon);
-    thumbNailLink.appendChild(thumbNailText);
-    thumbnail.appendChild(thumbNailLink);
+    thumbNailText.textContent = "gh-contrib-graph"
+    thumbNailText.style.marginLeft = "-13px"
+    thumbNailLink.appendChild(thumbNailIcon)
+    thumbNailLink.appendChild(thumbNailText)
+    thumbnail.appendChild(thumbNailLink)
     return thumbnail
 }
 
 async function main() {
   const container = document.getElementById("gh")
   const ghLogin = container.dataset.login
-  const data = await fetchData(ghLogin)
+  const data = contribs['data']['user']  //await fetchData(ghLogin)
   const calendar = data["contributionsCollection"]["contributionCalendar"]
   const [table, thead, tbody] = init_table()
   const card = init_card()
   const canvas = init_canvas()
-  const header = init_header(calendar["totalContributions"], ghLogin, data["avatarUrl"])
+  const header = init_header(data["contributionsCollection"]["contributionCalendar"]["totalContributions"], ghLogin, data["avatarUrl"])
   const footer = init_card_footer()
-  const thumbnail = init_thumbnail();
+  const thumbnail = init_thumbnail()
 
   addWeeks(tbody, calendar["weeks"], calendar["colors"])
   addMonths(thead, calendar["months"])
@@ -481,6 +522,6 @@ async function main() {
   card.appendChild(canvas)
   container.appendChild(header)
   container.appendChild(card)
-  container.appendChild(thumbnail);
+  container.appendChild(thumbnail)
 }
 </script>
