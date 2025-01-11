@@ -373,10 +373,10 @@ async function fetchData(ghLogin) {
           })
         })
         .then(response => response.json())
-        .then(data => {
-          return data['user'];
-        })
+        .then(data => data)
         .catch(error => console.error('Error fetching data:', error));
+
+  return data["data"]["user"]
 }
 
 function init_table() {
