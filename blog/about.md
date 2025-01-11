@@ -338,7 +338,7 @@ async function fetchData(ghLogin) {
         await fetch('https://api.github.com/graphql', {
           method: 'POST',
           headers: {
-            'Authorization': `Bearer YOUR_GITHUB_TOKEN`,
+            'Authorization': `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
@@ -373,10 +373,10 @@ async function fetchData(ghLogin) {
           })
         })
         .then(response => response.json())
-        .then(data => {
-          return data['user'];
-        })
+        .then(data => data)
         .catch(error => console.error('Error fetching data:', error));
+
+  return data["data"]["user"]
 }
 
 function init_table() {
@@ -506,7 +506,7 @@ function init_thumbnail() {
 async function main() {
   const container = document.getElementById("gh")
   const ghLogin = container.dataset.login
-  const data = contribs['data']['user']  //await fetchData(ghLogin)
+  const data = await fetchData(ghLogin)
   const calendar = data["contributionsCollection"]["contributionCalendar"]
   const [table, thead, tbody] = init_table()
   const card = init_card()

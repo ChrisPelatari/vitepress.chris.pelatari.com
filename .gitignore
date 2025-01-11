@@ -3,3 +3,4 @@
 **/.vitepress/cache
 **/.DS_Store
 **/.temp
+blog/.env.local
