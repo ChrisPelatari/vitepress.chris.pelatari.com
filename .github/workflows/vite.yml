@@ -43,7 +43,7 @@ jobs:
       - name: Build with VitePress
         run: yarn build     
       - name: Create dotenv
-        run: touch ./blog/.vitepress/dist/.env && echo 'VITE_GITHUB_TOKEN=$VITE_GITHUB_TOKEN' >> ./blog/.vitepress/dist/.env
+        run: echo 'VITE_GITHUB_TOKEN=${{ VITE_GITHUB_TOKEN }}' >> ./blog/.vitepress/dist/.env
         env:
           VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
       - name: Upload artifact
