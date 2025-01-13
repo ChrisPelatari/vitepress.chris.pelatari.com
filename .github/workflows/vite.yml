@@ -42,7 +42,7 @@ jobs:
       - name: Build with VitePress
         run: yarn build
       - name: Create envfile
-        uses: SpicyPizza/create-env@main
+        uses: SpicyPizza/create-envfile@main
         with:
           envkey_VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
           directory: ./blog/.vitepress/dist
