@@ -41,15 +41,14 @@ jobs:
         run: yarn run version
       - name: Build
         run: yarn run build
+        env: 
+          VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
       - name: Setup Pages
         uses: actions/configure-pages@main
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
-          include-hidden-files: true
           path: './blog/.vitepress/dist'        
-        env:
-          VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
