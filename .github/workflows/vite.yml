@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy vue static content to Pages
+name: Deploy VitePress static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -40,22 +40,28 @@ jobs:
       - name: Version
         run: yarn run version
       - name: Build with VitePress
-        run: yarn build
-      - name: Create envfile
-        uses: SpicyPizza/create-envfile@main
-        with:
-          envkey_VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
-          directory: ./blog/.vitepress/dist
+        run: yarn build        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
           path: ./blog/.vitepress/dist
 
+  create-envfile:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Make envfile
+      uses: SpicyPizza/create-envfile@v2.0
+      with:
+        envkey_VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
+        directory: ./blog/.vitepress/dist
+
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
+    needs: create-envfile
     runs-on: ubuntu-latest
     name: Deploy
     steps:     
