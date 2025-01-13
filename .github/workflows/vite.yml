@@ -46,7 +46,10 @@ jobs:
         with:
           INPUT_ENVKEY_VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
           directory: ./blog/.vitepress/dist   
-
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@main
+        with:
+          path: ./blog/.vitepress/dist
   deploy:
     environment:
       name: github-pages
@@ -55,10 +58,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:     
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@main
-        with:
-          path: ./blog/.vitepress/dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
