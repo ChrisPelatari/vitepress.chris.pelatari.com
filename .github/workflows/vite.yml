@@ -42,7 +42,9 @@ jobs:
       - name: Build with VitePress
         run: yarn build     
       - name: Make envfile
-        run: touch ./blog/.vitepress/dist/.env && echo `VITE_GITHUB_TOKEN=${{ secrets.VITE_GITHUB_TOKEN }}` >> ./blog/.vitepress/dist/.env
+        run: touch ./blog/.vitepress/dist/.env && echo 'VITE_GITHUB_TOKEN=${{ TOKEN }}' >> ./blog/.vitepress/dist/.env
+        env:
+          TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
