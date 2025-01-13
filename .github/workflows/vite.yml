@@ -41,6 +41,12 @@ jobs:
         run: yarn run version
       - name: Build
         run: yarn run build
+      - name: Make envfile
+        uses: SpicyPizza/create-envfile@v2.0
+        with: 
+          envkey_VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
+          directory: './blog/.vitepress/dist'
+          file_name: .env
       - name: Setup Pages
         uses: actions/configure-pages@main
       - name: Upload artifact
