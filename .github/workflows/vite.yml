@@ -20,7 +20,17 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-jobs:
+jobs:  
+  create-envfile:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Make envfile
+      uses: SpicyPizza/create-envfile@v2.0
+      with:
+        envkey_VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
+        directory: ./blog/.vitepress/dist
   build:
     runs-on: ubuntu-latest
     steps:
@@ -41,21 +51,6 @@ jobs:
         run: yarn run version
       - name: Build with VitePress
         run: yarn build        
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@main
-        with:
-          path: ./blog/.vitepress/dist
-
-  create-envfile:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Make envfile
-      uses: SpicyPizza/create-envfile@v2.0
-      with:
-        envkey_VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
-        directory: ./blog/.vitepress/dist
 
   deploy:
     environment:
@@ -65,6 +60,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:     
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@main
+        with:
+          path: ./blog/.vitepress/dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
