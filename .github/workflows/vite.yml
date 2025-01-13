@@ -21,16 +21,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:  
-  create-envfile:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Make envfile
-      uses: SpicyPizza/create-envfile@v2.0
-      with:
-        envkey_VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
-        directory: ./blog/.vitepress/dist
   build:
     runs-on: ubuntu-latest
     steps:
@@ -50,13 +40,18 @@ jobs:
       - name: Version
         run: yarn run version
       - name: Build with VitePress
-        run: yarn build        
+        run: yarn build     
+      - name: Make envfile
+        uses: SpicyPizza/create-envfile@v2.0
+        with:
+          INPUT_ENVKEY_VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
+          directory: ./blog/.vitepress/dist   
 
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: create-envfile
+    needs: build
     runs-on: ubuntu-latest
     name: Deploy
     steps:     
