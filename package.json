@@ -56,7 +56,8 @@
     "version": "node ./version.mjs",
     "v": "node ./version.mjs",
     "archive": "node ./collect-archive.mjs",
-    "post": "node ./create-post.mjs "
+    "post": "node ./create-post.mjs ",
+    "dotenv": "touch ./blog/.vitepress/dist/.env && echo 'VITE_GITHUB_TOKEN=$VITE_GITHUB_TOKEN' >> ./blog/.vitepress/dist/.env"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
