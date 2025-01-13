@@ -49,7 +49,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
-          path: ./blog/.vitepress/dist
+          path: |
+            ./blog/.vitepress/dist
+            ./blog/.vitepress/dist/.env
   deploy:
     environment:
       name: github-pages
