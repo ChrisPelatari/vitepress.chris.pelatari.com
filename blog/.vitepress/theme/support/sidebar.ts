@@ -75,7 +75,7 @@ export function getFlatSideBarLinks(sidebar: SidebarItem[]): SidebarLink[] {
         links.push({
           text: item.text,
           link: item.link,
-          docFooterText: item.docFooterText
+          docFooterText: item.docFooterText,
         })
       }
 

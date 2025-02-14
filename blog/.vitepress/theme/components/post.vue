@@ -1,8 +1,16 @@
 <template>
-  <div class="VPPage" style="margin:1.618rem;">
+  <div class="VPPage" style="margin: 1.618rem">
     <h3 class="text-h3">{{ frontmatter.title }}</h3>
-    <p class="text-overline">{{ frontmatter.date ? new Date(frontmatter.date).toDateString() : new Date(page.filePath.split('/').pop().slice(0, 10)).toDateString() }}</p>
-    <p class="text-caption" v-if="frontmatter.permalink"><a :href="`${frontmatter.permalink}`">{{ frontmatter.permalink }}</a></p>
+    <p class="text-overline">
+      {{
+        frontmatter.date
+          ? new Date(frontmatter.date).toDateString()
+          : new Date(page.filePath.split('/').pop().slice(0, 10)).toDateString()
+      }}
+    </p>
+    <p class="text-caption" v-if="frontmatter.permalink">
+      <a :href="`${frontmatter.permalink}`">{{ frontmatter.permalink }}</a>
+    </p>
     <Content />
   </div>
 </template>
@@ -59,7 +67,7 @@ li {
   border-radius: 0.25em;
 }
 
-code>span {
+code > span {
   margin: 2.5rem;
 }
 

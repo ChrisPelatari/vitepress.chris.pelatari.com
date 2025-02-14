@@ -19,7 +19,7 @@ let day = new Date().getDate()
 
 //add zero to the beginning of the day if it is only one digit
 if (day < 10) {
-    day = `0${day}`
+  day = `0${day}`
 }
 
 pkg.version = `${pkg.version}.${month}${day}`

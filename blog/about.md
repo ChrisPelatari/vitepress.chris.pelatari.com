@@ -36,6 +36,7 @@ I'm seeking a company that values empathy and encourages growth. I'm open to rem
 <br/>
 
 # The Pelatari Menagerie
+
 <br/>
 
 <VPTeamMembers :members="family"/>

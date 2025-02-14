@@ -26,8 +26,7 @@ const currentDate = new Date().toISOString().split('T')[0]
 const fileName = `${currentDate}-${formattedTitle}.md`
 
 // create the contents of the file with the front matter
-const fileContents = 
-`---
+const fileContents = `---
   layout: post
   title: ${title}
   date: ${currentDate}
@@ -52,4 +51,4 @@ console.log(`Created file: ${fileName}`)
 console.log('Opening the file in the default editor...')
 
 // open the file in the default editor
-exec(`code ${fileName}`);
+exec(`code ${fileName}`)

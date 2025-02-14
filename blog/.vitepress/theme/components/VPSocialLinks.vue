@@ -1,5 +1,3 @@
-
-
 <script lang="ts" setup>
 import VPSocialLink from './VPSocialLink.vue'
 import type { DefaultTheme } from 'vitepress/theme'
