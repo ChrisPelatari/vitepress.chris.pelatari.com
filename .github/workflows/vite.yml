@@ -20,7 +20,7 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-jobs:
+jobs:  
   build:
     environment: github-pages
     runs-on: ubuntu-latest
@@ -41,7 +41,7 @@ jobs:
       - name: Version
         run: yarn run version
       - name: Build with VitePress
-        run: yarn build
+        run: yarn build     
       - name: Create dotenv #encrypt this -> .env.production
         run: echo 'VITE_GITHUB_TOKEN=${{ secrets.VITE_GITHUB_TOKEN }}' >> ./blog/.vitepress/dist/.env.production
         env:
@@ -49,7 +49,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
-          path: ./blog/.vitepress/dist
+          path: ./blog/.vitepress/dist 
       - name: Upload dotenv
         uses: actions/upload-artifact@v4
         with:
@@ -61,7 +61,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     name: Deploy
-    steps:
+    steps:     
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main

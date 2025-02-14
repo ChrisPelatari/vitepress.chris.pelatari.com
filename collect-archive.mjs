@@ -14,9 +14,7 @@ const data = posts.map((post) => {
     title: data.title ? data.title : post.slice(10).replace('.md', ''),
     date: data.date,
     excerpt: data.excerpt,
-    description: data.description
-      ? data.description
-      : removeMd(body).slice(0, 150),
+    description: data.description ? data.description : removeMd(body).slice(0, 150),
     slug: post.replace('.md', ''),
   }
 })
@@ -86,7 +84,11 @@ img.VPImage.image-src {
 fs.writeFileSync('./blog/index.md', updatedIndex, 'utf-8')
 
 // write the updated posts.json file
-fs.writeFileSync('blog/posts.json', JSON.stringify(postsOnly), 'utf-8')
+fs.writeFileSync(
+  'blog/posts.json',
+  JSON.stringify(postsOnly),
+  'utf-8'
+)
 
 // Read the existing archive.md file
 const archivePath = './blog/archive.md'
@@ -109,3 +111,5 @@ archiveContent = archiveContent.replace(
 fs.writeFileSync(archivePath, archiveContent, 'utf-8')
 
 console.log('Archive updated!')
+
+

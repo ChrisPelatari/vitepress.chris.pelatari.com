@@ -6,7 +6,6 @@ author: Marcus Aurelius Antoninus
 date: March 17, 180
 permalink: /meditations
 ---
-
 <div class="ma-5">
 <header id="header">
 <h1>Meditations &middot; <em><abbr title="Things to one's self">Ta eis heauton</abbr></em> &middot; by Marcus Aurelius</h1>

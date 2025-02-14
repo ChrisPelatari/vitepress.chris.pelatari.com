@@ -56,8 +56,7 @@
     "version": "node ./version.mjs",
     "v": "node ./version.mjs",
     "archive": "node ./collect-archive.mjs",
-    "post": "node ./create-post.mjs ",
-    "pretty": "prettier --write ."
+    "post": "node ./create-post.mjs "
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",

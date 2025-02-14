@@ -43,7 +43,7 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
-:root {
+ :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -158,9 +158,8 @@
 
 @font-face {
   font-family: 'Hack';
-  src:
-    url('/assets/fonts/Hack-Regular.woff2') format('woff2'),
-    url('/assets/fonts/Hack-Regular.woff') format('woff');
+  src: url('/assets/fonts/Hack-Regular.woff2') format('woff2'),
+      url('/assets/fonts/Hack-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -168,9 +167,8 @@
 
 @font-face {
   font-family: 'Hack';
-  src:
-    url('/assets/fonts/Hack-Bold.woff2') format('woff2'),
-    url('/assets/fonts/Hack-Bold.woff') format('woff');
+  src: url('/assets/fonts/Hack-Bold.woff2') format('woff2'),
+      url('/assets/fonts/Hack-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -178,9 +176,8 @@
 
 @font-face {
   font-family: 'Hack';
-  src:
-    url('/assets/fonts/Hack-BoldItalic.woff2') format('woff2'),
-    url('/assets/fonts/Hack-BoldItalic.woff') format('woff');
+  src: url('/assets/fonts/Hack-BoldItalic.woff2') format('woff2'),
+      url('/assets/fonts/Hack-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -188,9 +185,8 @@
 
 @font-face {
   font-family: 'Hack';
-  src:
-    url('/assets/fonts/Hack-Italic.woff2') format('woff2'),
-    url('/assets/fonts/Hack-Italic.woff') format('woff');
+  src: url('/assets/fonts/Hack-Italic.woff2') format('woff2'),
+      url('/assets/fonts/Hack-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
