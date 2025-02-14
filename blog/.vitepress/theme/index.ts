@@ -20,5 +20,5 @@ export default {
     app.component('VPSocialLink', VPSocialLink)
     app.component('VPSocialLinks', VPSocialLinks)
     app.component('VPBArchives', VPBArchives)
-  }
+  },
 } satisfies Theme
