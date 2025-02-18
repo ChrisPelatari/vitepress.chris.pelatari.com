@@ -3,11 +3,11 @@
     "user": {
       "contributionsCollection": {
         "contributionCalendar": {
-          "totalContributions": 726,
+          "totalContributions": 717,
           "months": [
             {
               "name": "Feb",
-              "totalWeeks": 3
+              "totalWeeks": 2
             },
             {
               "name": "Mar",
@@ -55,56 +55,10 @@
             },
             {
               "name": "Feb",
-              "totalWeeks": 2
+              "totalWeeks": 3
             }
           ],
           "weeks": [
-            {
-              "contributionDays": [
-                {
-                  "date": "2024-02-11T00:00:00.000+00:00",
-                  "contributionCount": 6,
-                  "contributionLevel": "SECOND_QUARTILE",
-                  "weekday": 0
-                },
-                {
-                  "date": "2024-02-12T00:00:00.000+00:00",
-                  "contributionCount": 1,
-                  "contributionLevel": "FIRST_QUARTILE",
-                  "weekday": 1
-                },
-                {
-                  "date": "2024-02-13T00:00:00.000+00:00",
-                  "contributionCount": 1,
-                  "contributionLevel": "FIRST_QUARTILE",
-                  "weekday": 2
-                },
-                {
-                  "date": "2024-02-14T00:00:00.000+00:00",
-                  "contributionCount": 1,
-                  "contributionLevel": "FIRST_QUARTILE",
-                  "weekday": 3
-                },
-                {
-                  "date": "2024-02-15T00:00:00.000+00:00",
-                  "contributionCount": 0,
-                  "contributionLevel": "NONE",
-                  "weekday": 4
-                },
-                {
-                  "date": "2024-02-16T00:00:00.000+00:00",
-                  "contributionCount": 1,
-                  "contributionLevel": "FIRST_QUARTILE",
-                  "weekday": 5
-                },
-                {
-                  "date": "2024-02-17T00:00:00.000+00:00",
-                  "contributionCount": 0,
-                  "contributionLevel": "NONE",
-                  "weekday": 6
-                }
-              ]
-            },
             {
               "contributionDays": [
                 {
@@ -2485,9 +2439,37 @@
                 },
                 {
                   "date": "2025-02-14T00:00:00.000+00:00",
-                  "contributionCount": 8,
+                  "contributionCount": 9,
                   "contributionLevel": "SECOND_QUARTILE",
                   "weekday": 5
+                },
+                {
+                  "date": "2025-02-15T00:00:00.000+00:00",
+                  "contributionCount": 0,
+                  "contributionLevel": "NONE",
+                  "weekday": 6
+                }
+              ]
+            },
+            {
+              "contributionDays": [
+                {
+                  "date": "2025-02-16T00:00:00.000+00:00",
+                  "contributionCount": 0,
+                  "contributionLevel": "NONE",
+                  "weekday": 0
+                },
+                {
+                  "date": "2025-02-17T00:00:00.000+00:00",
+                  "contributionCount": 0,
+                  "contributionLevel": "NONE",
+                  "weekday": 1
+                },
+                {
+                  "date": "2025-02-18T00:00:00.000+00:00",
+                  "contributionCount": 0,
+                  "contributionLevel": "NONE",
+                  "weekday": 2
                 }
               ]
             }
