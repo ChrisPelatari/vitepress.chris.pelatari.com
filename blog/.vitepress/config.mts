@@ -10,7 +10,7 @@ const hostname: string = 'https://chris.pelatari.com'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Blue Fenix',
-  description: 'professional geek ramblings',
+  description: 'professional geek tales and insights',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: `${hostname}/images/apple-touch-icon.png`,
