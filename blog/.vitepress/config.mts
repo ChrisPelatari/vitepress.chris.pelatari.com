@@ -1,4 +1,4 @@
-import { defineConfig, createContentLoader, type SiteConfig } from 'vitepress'
+import { defineConfig, loadEnv, createContentLoader, type SiteConfig } from 'vitepress'
 import path from 'path'
 import fs from 'fs'
 import { Feed } from 'feed'
@@ -8,7 +8,11 @@ import version from '../../package.json'
 const hostname: string = 'https://chris.pelatari.com'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default ({ mode }) => {
+
+  const env = loadEnv(mode, fileURLToPath(new URL('./', import.meta.url)))
+
+  return defineConfig({
   title: 'Blue Fenix',
   description: 'professional geek tales and insights',
   themeConfig: {
@@ -117,3 +121,5 @@ export default defineConfig({
     },
   },
 })
+}
+
