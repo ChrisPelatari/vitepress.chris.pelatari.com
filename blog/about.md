@@ -468,7 +468,7 @@ function init_thumbnail() {
 async function main() {
   const container = document.getElementById("gh")
   const ghLogin = container.dataset.login
-  const data = await fetchData(ghLogin)
+  const data = contribs['data']['user'] //await fetchData(ghLogin)
   const calendar = data["contributionsCollection"]["contributionCalendar"]
   const [table, thead, tbody] = init_table()
   const card = init_card()
