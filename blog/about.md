@@ -24,7 +24,7 @@ features:
 
 With extensive experience in software development and team leadership, I specialize in delivering high-quality solutions with a strong focus on user experience (UX). I'm passionate about driving projects to success and fostering a collaborative team environment. Whether you're looking for a full-time role, consulting, or contract work, I'm ready to bring my expertise to your team.
 
-Feel free to reach out to me at <a href="mailto:chris@pelatari.com">chris@pelatari.com</a>, check out my <a href="https://github.com/ChrisPelatari">GitHub profile</a> and take a look at my <a href="https://chris-jekyll.pelatari.com/PelatariChris_Resume.docx">resume</a> for more details on my experience and skills. You can also see my portfolio of projects on <a href="https://bluefenix.net">bluefenix.net</a>.
+Feel free to reach out to me at <a href="mailto:chris@pelatari.com">chris@pelatari.com</a>, check out my <a href="https://github.com/ChrisPelatari">GitHub profile</a> and take a look at my <a href="https://chris-jekyll.pelatari.com/Chris_Pelatari_Resume_LinkedIn.docx">resume</a> for more details on my experience and skills. You can also see my portfolio of projects on <a href="https://bluefenix.net">bluefenix.net</a>.
 
 # What I'm Looking For
 
