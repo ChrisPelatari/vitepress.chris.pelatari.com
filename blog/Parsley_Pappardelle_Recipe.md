@@ -18,7 +18,7 @@
 2. Create a well; add the eggs and yolk and beat with a fork.  
 3. Gradually pull in flour until a shaggy dough forms, then knead **8–10 min** until smooth.  
 4. Wrap and rest **30 min**.  
-5. Roll to *setting 5–6* on a pasta machine; cut into wide ribbons (pappardelle).
+5. Roll to *setting 5–6* on a pasta machine; cut into wide ribbons (pappardelle). *setting 4* for linguine.
 
 ---
 
