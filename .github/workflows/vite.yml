@@ -48,10 +48,6 @@ jobs:
         uses: actions/upload-pages-artifact@main
         with:
           path: ./blog/.vitepress/dist
-      - name: Upload dotenv
-        uses: actions/upload-artifact@v4
-        with:
-          path: ./blog/.vitepress/dist/.env.production
   deploy:
     environment:
       name: github-pages
