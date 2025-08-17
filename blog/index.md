@@ -12,7 +12,7 @@ hero:
       link: /posts/2024-11-10-implementing-stripe-checkout-session-in-aspnet-core-minimal-api
     - theme: alt
       text: Archive
-      link: /archive
+      link: /archive 
 features:
   - title: How it started
     details: w00t! First post!
