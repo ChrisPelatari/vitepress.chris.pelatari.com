@@ -31,7 +31,7 @@ features:
     link: /menagerie
   - title: Hire Me
     details: I am available for hire, check out my resume
-    link: https://chris-jekyll.pelatari.com/Chris_Pelatari_Resume_.docx
+    link: https://bluefenix.net/Chris_Pelatari_Resume_.docx
 ---
 
 <style>
