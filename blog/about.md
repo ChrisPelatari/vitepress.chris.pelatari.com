@@ -43,10 +43,19 @@ I'm seeking a company that values empathy and encourages growth. I'm open to rem
     media="(prefers-color-scheme: light)"
     srcset="/images/breakout-light.svg"
   />
-  <img alt="Breakout Game" src="/images/breakout-dark.svg" />
+  <img class="dark-only" alt="Breakout Game" src="/images/breakout-dark.svg" />
+  <img class="light-only" alt="Breakout Game" src="/images/breakout-light.svg" />
 </picture>
 
 <style>
+html.dark .light-only {
+  display: none !important;
+}
+
+html:not(.dark) .dark-only {
+  display: none !important;
+}
+
 .team-title {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
