@@ -59,9 +59,18 @@ features:
   - title: How it's going
     details: ${lastPostTitle}
     link: /posts/${lastPostSlug}
-  - title: How it once was
+    - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
+  - title: Parsley Pappardelle with Creamy Mushroom Sauce
+    details: A delicious pasta dish
+    link: /Parsley_Pappardelle_Recipe
+  - title: The Menagerie
+    details: Some of my favorite critters
+    link: /menagerie
+  - title: Hire Me
+    details: I am available for hire, check out my resume
+    link: https://bluefenix.net/Chris_Pelatari_Resume_.docx
 ---
 
 <style>
