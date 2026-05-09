@@ -29,9 +29,9 @@ features:
   - title: The Menagerie
     details: Some of my favorite critters
     link: /menagerie
-  - title: Hire Me
-    details: I am available for hire, check out my resume
-    link: https://bluefenix.net/Chris_Pelatari_Resume_.docx
+  - title: Blue Fenix Productions 
+    details: I can help your team ship quality software, check out my resume
+    link: https://bluefenixproductions.com/Chris_Pelatari_Resume.pdf
 ---
 
 <style>
