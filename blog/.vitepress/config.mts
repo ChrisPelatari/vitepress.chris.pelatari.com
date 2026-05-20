@@ -17,7 +17,8 @@ export default defineConfig({
     siteTitle: false,
     footer: {
       message: `💾 May the source be with you. [v${version.version}]`,
-      copyright: `[Copyright © 2003 - ${new Date().getFullYear()}, Chris Pelatari]`,
+      copyright: `[Copyright © 2003 - ${new Date().getFullYear()}]
+ [Chris Pelatari]`,
     },
     nav: [
       { text: 'Home', link: '/' },
