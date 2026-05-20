@@ -14,7 +14,7 @@ author: chrispelatari
 
 I got super frustrated yesterday when I had found a way to decompile my first source winforms project, [PostXING](https://github.com/ChrisPelatari/PostXING-decompiled), [written when I was 24](https://chris.pelatari.com/posts/2004-06-03-Starting-a-conversation-I-want-to-hear-your-opinion). No, I admit that I was in my emotions. I learned a lot making this project.
 
-When the structure that I spent so much time crafting appeared in the same structure that I remembered, this was me:
+When the structure that I spent so much time crafting appeared in the same form that I remembered, this was me:
 
 ## YO THAT'S THE CODE!
 
