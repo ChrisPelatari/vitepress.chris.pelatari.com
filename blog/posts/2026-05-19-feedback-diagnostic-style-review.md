@@ -38,4 +38,4 @@ And it worked. I was able to save a ton of space on my windows box, and got RDP 
 
 Yesterday was a heartbreaking lesson for me. Don't get it twisted, the reason I put the effort in to get my machine to a cleaner state was to have the opportunity for a proper resurrection. It's important to me, I want to give it the time it deserves. And an LLM and an old geek had a great coding session with mutual respect. Just be present enough to recieve the reflection you deserve. Claude will give it to you.
 
-If you want to have a less frustrating session with AI, [this is where I started](/blog/feedback_diagnostic_style) you can grab a zipped copy [here](/blog/feedback_diagnostic_style.zip) 
+If you want to have a less frustrating session with AI, [this is where I started](/feedback_diagnostic_style) you can grab a zipped copy [here](/feedback_diagnostic_style.zip) 
