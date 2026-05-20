@@ -2,7 +2,7 @@
 layout: post
 title: feedback diagnostic style review
 date: 2026-05-19
-categories: [ai, postxing]
+categories: [ai, postxing, prompting, Claude]
 author: chrispelatari
 ---
 
@@ -34,8 +34,10 @@ But I didn't lose anything this time.
 
 I was just consistent. I said hey, remember I said don’t do that. It was the first rule of the prompt I came in with, and I just caught you in two confidently incorrect lies. We're working on a .net project that has been a part of my life for two decades, remember who you're talking to when you just select the most probable word that comes next, whether its true or not. I was there. This isn't some throwaway slop code. This was my passion. 
 
-And it worked. I was able to save a ton of space on my windows box, and got RDP working again. There were over 17 versions of the dotnet fx isntalled over the years. Most of them on RTM day. The difference this time was that I didn't have my emotions involved with the task. When I was under the impression that I could raise my pet [production from the ashes](https://bluefenixproductions.com) I alsmost felt like I was 23 again, only to have that feeling ripped away the moment the rubber hit the pavement. The difference between us and the software robots is rthat we need balance to survive. We have to eat, we have to rest. When we're heads down in an intresting problem, hitting that flow state, they will mirror our tone. Even with other people, sometimes the right call is to walk away for a minute. 
+And it worked. I was able to save a ton of space on my windows box, and got RDP working again. There were over 17 versions of the dotnet fx isntalled over the years. Most of them on RTM day. The difference this time was that I didn't have my emotions involved with the task. When I was under the impression that I could raise my burned  [production from the ashes](https://bluefenixproductions.com) I alsmost felt like I was 23 again, only to have that feeling ripped away the moment the rubber hit the pavement. The difference between us and the software robots is that we need balance to survive. We have to eat, we have to rest. When we're heads down in an intresting problem, hitting that flow state, they will mirror our tone. Even with other people, sometimes the right call is to walk away for a minute. 
 
 Yesterday was a heartbreaking lesson for me. Don't get it twisted, the reason I put the effort in to get my machine to a cleaner state was to have the opportunity for a proper resurrection. It's important to me, I want to give it the time it deserves. And an LLM and an old geek had a great coding session with mutual respect. Just be present enough to recieve the reflection you deserve. Claude will give it to you.
 
-If you want to have a less frustrating session with AI, [this is where I started](/feedback_diagnostic_style) you can grab a zipped copy [here](/feedback_diagnostic_style.zip) 
+[Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) makes a difference. 
+
+If you want to have a less frustrating session with AI, [this is where I started](/feedback_diagnostic_style) you can grab a zipped copy [here](/feedback_diagnostic_style.zip). unzip it and give the context to Claude or your favorite agent if it changes tomorrow. agents treat these instructions as guidelines for communication during the session, and loading it as markdown keeps your context lean. [Generate your prompt](https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec) and go make something great without the drama. 🚀
