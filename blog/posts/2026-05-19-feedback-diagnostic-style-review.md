@@ -1,3 +1,11 @@
+---
+layout: post
+title: feedback diagnostic style review
+date: 2026-05-19
+categories: [ai, postxing]
+author: chrispelatari
+---
+
 # I had one of the best agentic AI sessions just doing some spring cleaning on my old Windows 11 system today 
 
 ## and it was all because I started at the very beginning by setting very clear boundaries. 
@@ -21,3 +29,5 @@ So today I started today trying to get connectivity between my win 11 box and a 
 And it worked. I was able to save a ton of space on my windows box, and got RDP working again. There were over 17 versions of the dotnet fx isntalled over the years. Most of them on RTM day. The difference this time was that I didn't have my emotions involved with the task. When I was under the impression that I could raise my pet [production from the ashes](https://bluefenixproductions.com) I alsmost felt like I was 23 again, only to have that feeling ripped away the moment the rubber hit the pavement. The difference between us and the software robots is rthat we need balance to survive. We have to eat, we have to rest. When we're heads down in an intresting problem, hitting that flow state, they will mirror our tone. Even with other people, sometimes the right call is to walk away for a minute. 
 
 Yesterday was a heartbreaking lesson for me. Don't get it twisted, the reason I put the effort in to get my machine to a cleaner state was to have the opportunity for a proper resurrection. It's important to me, I want to give it the time it deserves. And an LLM and an old geek had a great coding session with mutual respect. Just be present enough to recieve the reflection you deserve. Claude will give it to you.
+
+If you want to have a less frustrating session with AI, [this is where I started](/blog/feedback_diagnostic_style) you can grab a zipped copy [here](/blog/feedback_diagnostic_style.zip) 

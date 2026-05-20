@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Latest Post
-      link: /posts/2024-11-10-implementing-stripe-checkout-session-in-aspnet-core-minimal-api
+      link: /posts/2026-05-19-feedback-diagnostic-style-review
     - theme: alt
       text: Archive
       link: /archive 
@@ -18,8 +18,8 @@ features:
     details: w00t! First post!
     link: /posts/2003-02-07-WOOT-FIRST-POST
   - title: How it's going
-    details: Implementing Stripe Checkout Session in ASP.NET Core Minimal API
-    link: /posts/2024-11-10-implementing-stripe-checkout-session-in-aspnet-core-minimal-api
+    details: feedback diagnostic style review
+    link: /posts/2026-05-19-feedback-diagnostic-style-review
   - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
@@ -29,9 +29,9 @@ features:
   - title: The Menagerie
     details: Some of my favorite critters
     link: /menagerie
-  - title: Blue Fenix Productions 
-    details: I can help your team ship quality software, check out my resume
-    link: https://bluefenixproductions.com/Chris_Pelatari_Resume.pdf
+  - title: Hire Me
+    details: I am available for hire, check out my resume
+    link: https://bluefenix.net/Chris_Pelatari_Resume_.docx
 ---
 
 <style>
