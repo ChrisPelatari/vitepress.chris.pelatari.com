@@ -57,6 +57,7 @@
     "v": "node ./version.mjs",
     "archive": "node ./collect-archive.mjs",
     "post": "node ./create-post.mjs ",
+    "ship-check": "yarn archive && yarn build && yarn preview",
     "pretty": "prettier --write ."
   },
   "dependencies": {

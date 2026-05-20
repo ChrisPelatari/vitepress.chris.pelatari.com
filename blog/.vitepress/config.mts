@@ -57,7 +57,7 @@ export default defineConfig({
   ],
   ignoreDeadLinks: true,
   cleanUrls: true,
-  srcExclude: ['**/README.md', '**/TODO.md'],
+  srcExclude: ['**/README.md', '**/TODO.md', '**/drafts/**'],
   appearance: 'dark',
   buildEnd: async (config: SiteConfig) => {
     const feed = new Feed({

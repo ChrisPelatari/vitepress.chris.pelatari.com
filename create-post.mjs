@@ -3,7 +3,7 @@ import { argv } from 'process'
 import { exec } from 'child_process'
 
 // Get the title from the command line arguments
-const title = argv[2]
+let title = argv[2]
 
 // If no title is provided, use 'untitled' as the title
 if (!title) {
