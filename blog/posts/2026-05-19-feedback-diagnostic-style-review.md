@@ -14,6 +14,10 @@ author: chrispelatari
 
 I got super frustrated yesterday when I had found a way to decompile my first source winforms project, [PostXING](https://github.com/ChrisPelatari/PostXING-decompiled), [written when I was 24](https://chris.pelatari.com/posts/2004-06-03-Starting-a-conversation-I-want-to-hear-your-opinion). No, I admit that I was in my emotions. I learned a lot making this project.
 
+When the structure that I spent so much time crafting appeared in the same structure that I remembered, this was me:
+
+## YO THAT'S THE CODE!
+
 I ended up chasing a deeply emotional dragon with the next agent. They told me “oh yeah, you can *toootally* restructure this into a macOS cross platform app, it’s easy as pie! I haven't been as heavy into the dotnet world as I once was. So I believed the hallucinations.
 
 They lied to me and gaslit me for HOURS, went thru an intense process of planning how it would go down, argue our way thru like 5 different frameworks, and then finally two hours later, when it was time to start PHASE 1, the first message was: 
