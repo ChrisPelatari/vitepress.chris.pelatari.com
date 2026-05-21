@@ -20,4 +20,4 @@ Turns out I was right about that. Today I used an open source blog posting clien
 I’m committed to continuing my learning journey in this area to refine my skills, just as I did with all my previous programming projects. I’m genuinely looking forward to it.
 
 
-[ P.S. [I shared some experience](https://hachyderm.io/@blue_fenix/116600486964389326) the other day I took it myself. And it worked! Already enjoying the benefits. ]
+[ P.S. [I shared some experience](https://hachyderm.io/@blue_fenix/116601726156151069) the other day I took it myself. And it worked! Already enjoying the benefits. ]
