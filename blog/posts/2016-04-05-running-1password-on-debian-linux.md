@@ -10,7 +10,7 @@ tags: [geek]
 
 The first thing I tried was just running the installer with wine at the terminal.
 
-```
+```bash
 chris@Callisto:~/Downloads$ wine 1Password-4.6.0.604.exe
 wine: Bad EXE format for Z:\home\chris\Downloads\1Password-4.6.0.604.exe.
 ```
