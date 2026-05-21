@@ -17,7 +17,7 @@ import { VPTeamMembers } from 'vitepress/theme'
   },
   {
     name: 'Ziggy Stardog',
-    avatar: '/images/ziggy_happy.jpg'
+    avatar: '/images/ziggy_stardog.png'
   },
   {
     name: 'Beyoncé Meows',
