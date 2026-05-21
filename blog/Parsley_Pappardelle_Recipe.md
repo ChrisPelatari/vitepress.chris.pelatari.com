@@ -54,4 +54,4 @@
 ---
 
 ### Serving
-Swirl onto a warm platter and enjoy immediately. **Buon appetito!**
+Swirl onto a warm platter and enjoy immediately. **Buon appetito!** 🤌🏽
