@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Latest Post
-      link: /posts/2026-05-19-feedback-diagnostic-style-review
+      link: /posts/2026-05-20-taking-my-own-dang-advice
     - theme: alt
       text: Archive
       link: /archive 
@@ -18,8 +18,8 @@ features:
     details: w00t! First post!
     link: /posts/2003-02-07-WOOT-FIRST-POST
   - title: How it's going
-    details: feedback diagnostic style review
-    link: /posts/2026-05-19-feedback-diagnostic-style-review
+    details: Taking my own dang advice
+    link: /posts/2026-05-20-taking-my-own-dang-advice
   - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
