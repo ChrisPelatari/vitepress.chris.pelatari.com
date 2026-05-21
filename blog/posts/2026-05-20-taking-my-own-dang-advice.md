@@ -18,3 +18,6 @@ One way to find out: take your own dang advice.
 Turns out I was right about that. Today I used an open source blog posting client for iOS as a seed to build my own version using Claude and customizing my icon with [recraft.ai](https://recraft.ai). Turns out Claude is not good at generating logo art. Neither programmatic primitives nor LLM-generated SVG produces aesthetically strong original marks. Use a vector AI tool (Recraft) or a human designer. Claude's strength is the integration plumbing — gradient stripping, layer splitting, JSON wiring, format conversion. Now this last statement, I hope I'm wrong about, and I only just haven't figured out how to use the right skill. But by default this is definitely true.
 
 I’m committed to continuing my learning journey in this area to refine my skills, just as I did with all my previous programming projects. I’m genuinely looking forward to it.
+
+
+[ P.S. [I shared some experience](https://hachyderm.io/@blue_fenix/116600486964389326) the other day I took it myself. And it worked! Already enjoying the benefits. ]
