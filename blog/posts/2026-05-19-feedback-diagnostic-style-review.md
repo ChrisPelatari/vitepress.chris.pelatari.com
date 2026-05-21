@@ -12,7 +12,7 @@ author: chrispelatari
 
 > When diagnosing system issues, work **concisely and patiently**: no walls of commands, no walkthroughs the user didn't ask for, no piling on of speculative next steps.
 
-I got super frustrated yesterday when I had found a way to decompile my first source winforms project, [PostXING](https://github.com/ChrisPelatari/PostXING-decompiled), [written when I was 24](https://chris.pelatari.com/posts/2004-06-03-Starting-a-conversation-I-want-to-hear-your-opinion). Now, I admit that I was in my emotions. I learned a lot making this project.
+I got super frustrated yesterday when I had found a way to decompile my first open source winforms project, [PostXING](https://github.com/ChrisPelatari/PostXING-decompiled), [written when I was 24](https://chris.pelatari.com/posts/2004-06-03-Starting-a-conversation-I-want-to-hear-your-opinion). Now, I admit that I was in my emotions. I learned a lot making this project.
 
 When the structure that I spent so much time crafting appeared in the same form that I remembered, this was me:
 
