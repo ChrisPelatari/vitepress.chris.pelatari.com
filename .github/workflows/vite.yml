@@ -42,8 +42,12 @@ jobs:
         env:
           TZ: America/Chicago
         run: yarn run v
+      - name: Refresh archive and latest-post links
+        env:
+          TZ: America/Chicago
+        run: yarn archive
       - name: Build with VitePress
-        run: yarn build        
+        run: yarn build
         env:
           VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
       - name: generate SVG
