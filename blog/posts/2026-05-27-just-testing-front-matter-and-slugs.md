@@ -9,4 +9,6 @@ excerpt:
 
 # Just testing front matter and slugs
 
-making the tools to write to my blog easier to use will encourage me to write all more often. Fax. 📠💯
+making the tools to write to my blog easier to use will encourage me to write more often. Fax. 📠💯
+
+writing more now lets me reflect better later.
