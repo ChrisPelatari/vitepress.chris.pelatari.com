@@ -13,4 +13,6 @@ I integrated GitHub into the Android version. if you can see this it worked!
 
 that's pretty much the whole post let's see what happens. 
 
-well it looks like save only saves locally and the keyboard still obscures the typing area below the keyboard in the editor.
+~~well it looks like save only saves locally and~~ 
+
+~~the keyboard still obscures the typing area below the keyboard in the editor.~~
