@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Latest Post
-      link: /posts/2026-05-20-taking-my-own-dang-advice
+      link: /posts/2026-06-06-w00t-first-post-delivered-from-android-postxing
     - theme: alt
       text: Archive
       link: /archive 
@@ -18,8 +18,8 @@ features:
     details: w00t! First post!
     link: /posts/2003-02-07-WOOT-FIRST-POST
   - title: How it's going
-    details: Taking my own dang advice
-    link: /posts/2026-05-20-taking-my-own-dang-advice
+    details: w00t! first post delivered from Android postXING
+    link: /posts/2026-06-06-w00t-first-post-delivered-from-android-postxing
   - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
