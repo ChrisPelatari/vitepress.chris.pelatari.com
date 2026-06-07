@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
       - name: Setup Bun
@@ -34,11 +34,11 @@ jobs:
         with:
           bun-version: latest
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 24
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Install dependencies
         run: bun install --frozen-lockfile
       - name: Version
@@ -54,7 +54,7 @@ jobs:
         env:
           VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
       - name: generate SVG
-        uses: cyprieng/github-breakout@v1.0.0
+        uses: cyprieng/github-breakout@v1
         with:
           github_username: ${{ github.repository_owner }}
       - name: Move generated SVGs
@@ -63,7 +63,7 @@ jobs:
           mv output/light.svg ./blog/.vitepress/dist/images/breakout-light.svg
           mv output/dark.svg ./blog/.vitepress/dist/images/breakout-dark.svg
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./blog/.vitepress/dist
   deploy:
@@ -76,4 +76,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
