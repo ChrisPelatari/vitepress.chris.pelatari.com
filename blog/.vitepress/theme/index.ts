@@ -7,6 +7,7 @@ import post from './components/post.vue'
 import VPSocialLink from './components/VPSocialLink.vue'
 import VPSocialLinks from './components/VPSocialLinks.vue'
 import VPBArchives from './components/VPBArchives.vue'
+import Kicker from './components/Kicker.vue'
 
 export default {
   extends: DefaultTheme,
@@ -20,5 +21,6 @@ export default {
     app.component('VPSocialLink', VPSocialLink)
     app.component('VPSocialLinks', VPSocialLinks)
     app.component('VPBArchives', VPBArchives)
+    app.component('Kicker', Kicker)
   },
 } satisfies Theme

@@ -50,19 +50,19 @@
     "vuetify": "^3.5.4"
   },
   "scripts": {
-    "dev": "vitepress dev blog --port 4242 --host",
+    "dev": "bun v && bun archive && vitepress dev blog --port 4242 --host",
     "build": "vitepress build blog",
     "preview": "vitepress preview blog --port 8484",
     "version": "node ./version.mjs",
     "v": "node ./version.mjs",
     "archive": "node ./collect-archive.mjs",
     "post": "node ./create-post.mjs ",
-    "ship-check": "yarn archive && yarn build && yarn preview",
+    "ship-check": "bun archive && bun run build && bun preview",
     "pretty": "prettier --write ."
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
     "date-fns": "^3.6.0"
   },
-  "version": "3.4.509"
+  "version": "3.4.607"
 }

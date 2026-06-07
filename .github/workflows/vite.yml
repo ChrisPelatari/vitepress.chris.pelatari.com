@@ -26,28 +26,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup node
-        uses: actions/setup-node@main
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 24
-          cache: yarn
       - name: Setup Pages
-        uses: actions/configure-pages@main
+        uses: actions/configure-pages@v5
       - name: Install dependencies
-        run: yarn install
+        run: bun install --frozen-lockfile
       - name: Version
         env:
           TZ: America/Chicago
-        run: yarn run v
+        run: bun run v
       - name: Refresh archive and latest-post links
         env:
           TZ: America/Chicago
-        run: yarn archive
+        run: bun run archive
       - name: Build with VitePress
-        run: yarn build
+        run: bun run build
         env:
           VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
       - name: generate SVG
@@ -56,11 +59,11 @@ jobs:
           github_username: ${{ github.repository_owner }}
       - name: Move generated SVGs
         run: |
-          mkdir -p images
+          mkdir -p ./blog/.vitepress/dist/images
           mv output/light.svg ./blog/.vitepress/dist/images/breakout-light.svg
           mv output/dark.svg ./blog/.vitepress/dist/images/breakout-dark.svg
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@main
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./blog/.vitepress/dist
   deploy:
@@ -73,4 +76,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@main
+        uses: actions/deploy-pages@v4
