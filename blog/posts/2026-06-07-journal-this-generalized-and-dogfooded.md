@@ -3,7 +3,7 @@ date: 2026-06-07T02:45:00-05:00
 title: "topology-journal becomes journal-this — generalized, tested, and dogfooded into its own repo"
 author: "ChrisPelatari"
 tags: [claude, ai-agents, codex, plugins]
-description: "Took the personal topology-journal skill and generalized it into a shareable journal-this with a setup interview (operator name, voice source, destination). Tested the interview with sandboxed subagents (found and fixed four real gaps), ran a full end-to-end write against a throwaway repo with a forced rebase race, then swapped journal-this in as the active journaling skill (topology-journal backed up). This entry is the first live dogfood run — and it immediately surfaced that the generic skill doesn't know this repo's frontmatter/Kicker convention."
+description: "Took the personal topology-journal skill and generalized it into a shareable journal-this with a setup interview (operator name, voice source, destination)."
 ---
 
 <Kicker>the journaling skill ate its own tail: generalized, packaged, and turned on itself for the first real entry</Kicker>
