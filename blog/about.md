@@ -13,7 +13,6 @@ features:
   - title: About Me
     details: Founded Blue Fenix Productions to offer senior engineering with modern AI development practices. Embed agentic AI across the SDLC (planning, implementation, review) while delivering full-stack applications and custom platforms under direct ownership from first commit to production.
 ---
-[Jellyfin](https://192.168.1.10:8920)
 
 <br/>
 
@@ -38,7 +37,7 @@ I don't just ramble in geek, I work at it too! See what's developing at [Blue Fe
   <img class="light-only" alt="Breakout Game" src="/images/breakout-light.svg" />
 </picture>
 
-
+[Jellyfin](https://madara.bluefenix.net:8920)
 <style>
 html.dark .light-only {
   display: none !important;
