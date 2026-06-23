@@ -37,7 +37,6 @@ I don't just ramble in geek, I work at it too! See what's developing at [Blue Fe
   <img class="light-only" alt="Breakout Game" src="/images/breakout-light.svg" />
 </picture>
 
-[Jellyfin](https://madara.bluefenix.net:8920)
 <style>
 html.dark .light-only {
   display: none !important;
