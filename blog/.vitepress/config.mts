@@ -7,6 +7,20 @@ import version from '../../package.json'
 
 const hostname: string = 'https://chris.pelatari.com'
 
+// Per-post, asset-resolved render captured from VitePress's own transform (see transformHtml below).
+// createContentLoader renders with markdown-it BEFORE Vite hashes assets, so its <img src> are raw
+// source paths (./images/foo.png) that 404 against the hashed build output (/assets/foo.HASH.png).
+// The site pages get the hashed URLs; the feed didn't -- two render engines, one disconnect. Capturing
+// the page's resolved content here gives the feed the same URLs the browser gets.
+const renderedPosts = new Map<string, string>()
+const slug = (p: string) =>
+  p.replace(/^\//, '').replace(/\.(md|html)$/i, '').replace(/\/index$/i, '').replace(/\/$/, '')
+// Syndicated content should use absolute URLs: the page render emits root-relative /assets (hashed)
+// and /images (public) paths, which a standalone reader would resolve against its own host. Targeted
+// so external absolute URLs and protocol-relative (//) paths are left untouched.
+const absolutize = (h: string) =>
+  h.replaceAll('"/assets/', `"${hostname}/assets/`).replaceAll('"/images/', `"${hostname}/images/`)
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Blue Fenix',
@@ -59,6 +73,12 @@ export default defineConfig({
   cleanUrls: true,
   srcExclude: ['**/README.md', '**/TODO.md', '**/drafts/**'],
   appearance: 'dark',
+  // Capture each post's final, asset-resolved content (img src already Vite-hashed) so the feed can
+  // reuse the site's own render instead of re-rendering with markdown-it. Reading ctx only -- no mutation.
+  transformHtml(_code, _id, ctx) {
+    const rel = ctx.pageData.relativePath
+    if (rel.startsWith('posts/') && ctx.content) renderedPosts.set(slug(rel), ctx.content)
+  },
   buildEnd: async (config: SiteConfig) => {
     const feed = new Feed({
       title: 'Blue Fenix Productions',
@@ -66,7 +86,7 @@ export default defineConfig({
       id: hostname,
       link: `${hostname}/about`,
       language: 'en',
-      image: `${hostname}/IMG_1996.png`,
+      image: `${hostname}/images/IMG_1996.png`,
       favicon: `${hostname}/favicon.ico`,
       feedLinks: {
         rss: `${hostname}/feed.xml`,
@@ -89,13 +109,16 @@ export default defineConfig({
       //get the date from the file name - all of them are in the format YYYY-MM-DD-title.md
       // @ts-ignore: Object is possibly 'undefined'
       const date = new Date(url.split('/').pop().slice(0, 10))
+      const resolved = renderedPosts.get(slug(url))
 
       feed.addItem({
         title: frontmatter.title,
         id: `${hostname}${url}`,
         link: `${hostname}${url}`,
         description: excerpt,
-        content: html,
+        // The site's asset-resolved render (hashed img URLs), absolutized; fall back to the markdown-it
+        // render only if a post somehow wasn't captured by transformHtml.
+        content: resolved ? absolutize(resolved) : html,
         author: [
           {
             name: 'Chris Pelatari',
