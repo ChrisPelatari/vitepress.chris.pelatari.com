@@ -3,23 +3,32 @@ import path from 'path'
 import fs from 'fs'
 import { Feed } from 'feed'
 import { fileURLToPath, URL } from 'node:url'
+import { parse } from 'node-html-parser'
 import version from '../../package.json'
 
 const hostname: string = 'https://chris.pelatari.com'
 
-// Per-post, asset-resolved render captured from VitePress's own transform (see transformHtml below).
-// createContentLoader renders with markdown-it BEFORE Vite hashes assets, so its <img src> are raw
-// source paths (./images/foo.png) that 404 against the hashed build output (/assets/foo.HASH.png).
-// The site pages get the hashed URLs; the feed didn't -- two render engines, one disconnect. Capturing
-// the page's resolved content here gives the feed the same URLs the browser gets.
-const renderedPosts = new Map<string, string>()
 const slug = (p: string) =>
   p.replace(/^\//, '').replace(/\.(md|html)$/i, '').replace(/\/index$/i, '').replace(/\/$/, '')
-// Syndicated content should use absolute URLs: the page render emits root-relative /assets (hashed)
-// and /images (public) paths, which a standalone reader would resolve against its own host. Targeted
-// so external absolute URLs and protocol-relative (//) paths are left untouched.
+
+// Syndicated content needs absolute URLs; VitePress emits root-relative /assets (hashed) and /images
+// (public). Targeted so external (http) and protocol-relative (//) URLs are left untouched.
 const absolutize = (h: string) =>
   h.replaceAll('"/assets/', `"${hostname}/assets/`).replaceAll('"/images/', `"${hostname}/images/`)
+
+// Each post's whole rendered page, captured from VitePress's OWN render (see transformHtml) -- so its
+// <img src> are the Vite-hashed URLs the browser gets, not createContentLoader's pre-bundle source
+// paths (two render engines were the disconnect). ctx.content is the entire page (nav/footer/search),
+// so we extract just the article: the post component's own root (.VPPage, from theme/components/
+// post.vue), minus its title/date/permalink meta. One render, one semantic selector -- no second
+// markdown pass, no asset correlation.
+const renderedPages = new Map<string, string>()
+const articleFrom = (rendered: string): string | null => {
+  const page = parse(rendered).querySelector('.VPPage')
+  if (!page) return null
+  page.querySelectorAll('.text-h3, .text-overline, .text-caption').forEach((e) => e.remove())
+  return page.innerHTML
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -73,11 +82,11 @@ export default defineConfig({
   cleanUrls: true,
   srcExclude: ['**/README.md', '**/TODO.md', '**/drafts/**'],
   appearance: 'dark',
-  // Capture each post's final, asset-resolved content (img src already Vite-hashed) so the feed can
-  // reuse the site's own render instead of re-rendering with markdown-it. Reading ctx only -- no mutation.
+  // Capture each post's rendered page from VitePress's own render (asset URLs already Vite-hashed);
+  // the article is pulled out of it in buildEnd. Reading ctx only, no mutation.
   transformHtml(_code, _id, ctx) {
     const rel = ctx.pageData.relativePath
-    if (rel.startsWith('posts/') && ctx.content) renderedPosts.set(slug(rel), ctx.content)
+    if (rel.startsWith('posts/') && ctx.content) renderedPages.set(slug(rel), ctx.content)
   },
   buildEnd: async (config: SiteConfig) => {
     const feed = new Feed({
@@ -109,16 +118,16 @@ export default defineConfig({
       //get the date from the file name - all of them are in the format YYYY-MM-DD-title.md
       // @ts-ignore: Object is possibly 'undefined'
       const date = new Date(url.split('/').pop().slice(0, 10))
-      const resolved = renderedPosts.get(slug(url))
+      const article = articleFrom(renderedPages.get(slug(url)) ?? '')
 
       feed.addItem({
         title: frontmatter.title,
         id: `${hostname}${url}`,
         link: `${hostname}${url}`,
         description: excerpt,
-        // The site's asset-resolved render (hashed img URLs), absolutized; fall back to the markdown-it
-        // render only if a post somehow wasn't captured by transformHtml.
-        content: resolved ? absolutize(resolved) : html,
+        // The article extracted from VitePress's own rendered page (Vite-hashed img URLs), absolutized;
+        // fall back to the markdown-it render only if a post wasn't captured / had no .VPPage.
+        content: article ? absolutize(article) : html,
         author: [
           {
             name: 'Chris Pelatari',
