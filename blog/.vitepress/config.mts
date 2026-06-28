@@ -3,23 +3,42 @@ import path from 'path'
 import fs from 'fs'
 import { Feed } from 'feed'
 import { fileURLToPath, URL } from 'node:url'
+import { parse } from 'node-html-parser'
 import version from '../../package.json'
 
 const hostname: string = 'https://chris.pelatari.com'
 
-// Per-post, asset-resolved render captured from VitePress's own transform (see transformHtml below).
-// createContentLoader renders with markdown-it BEFORE Vite hashes assets, so its <img src> are raw
-// source paths (./images/foo.png) that 404 against the hashed build output (/assets/foo.HASH.png).
-// The site pages get the hashed URLs; the feed didn't -- two render engines, one disconnect. Capturing
-// the page's resolved content here gives the feed the same URLs the browser gets.
-const renderedPosts = new Map<string, string>()
 const slug = (p: string) =>
   p.replace(/^\//, '').replace(/\.(md|html)$/i, '').replace(/\/index$/i, '').replace(/\/$/, '')
-// Syndicated content should use absolute URLs: the page render emits root-relative /assets (hashed)
-// and /images (public) paths, which a standalone reader would resolve against its own host. Targeted
-// so external absolute URLs and protocol-relative (//) paths are left untouched.
-const absolutize = (h: string) =>
-  h.replaceAll('"/assets/', `"${hostname}/assets/`).replaceAll('"/images/', `"${hostname}/images/`)
+
+// Per-post resolved asset URLs, captured from VitePress's own build (see transformHtml). The feed body
+// comes from createContentLoader (markdown-it -- the article only, no site chrome), but that renders
+// BEFORE Vite hashes assets, so its <img src> are raw source paths (./images/foo.png) that 404 against
+// the hashed build output (/assets/foo.HASH.png). Two render engines, one disconnect. We rewrite just
+// those img URLs to the hashed, absolute ones the browser gets -- without dragging in nav/footer/etc.
+const renderedAssets = new Map<string, string[]>()
+
+// A built asset filename is "<name>.<hash>.<ext>"; drop the hash segment to recover "<name>.<ext>".
+const dehash = (file: string) => {
+  const p = file.split('.')
+  return p.length >= 3 ? [...p.slice(0, -2), p[p.length - 1]].join('.') : file
+}
+const fileName = (url: string) => (url.split('/').pop() ?? '').split('?')[0]
+
+// Rewrite the article body's <img src> to the build's hashed + absolute URLs, matched by filename.
+// External absolute images (e.g. old WordPress http) have no asset entry and are left untouched.
+const fixImages = (html: string, assets: string[]): string => {
+  if (!assets.length) return html
+  const byName = new Map<string, string>()
+  for (const a of assets) byName.set(dehash(fileName(a)), a.startsWith('http') ? a : `${hostname}${a}`)
+  const root = parse(html)
+  for (const img of root.querySelectorAll('img')) {
+    const src = img.getAttribute('src')
+    const hit = src ? byName.get(fileName(src)) : undefined
+    if (hit) img.setAttribute('src', hit)
+  }
+  return root.toString()
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -73,11 +92,12 @@ export default defineConfig({
   cleanUrls: true,
   srcExclude: ['**/README.md', '**/TODO.md', '**/drafts/**'],
   appearance: 'dark',
-  // Capture each post's final, asset-resolved content (img src already Vite-hashed) so the feed can
-  // reuse the site's own render instead of re-rendering with markdown-it. Reading ctx only -- no mutation.
+  // Capture each post's resolved asset URLs (Vite-hashed) so the feed can rewrite the article body's
+  // raw image paths to the real ones. ctx.content is the WHOLE rendered page (nav/footer/etc.), so we
+  // deliberately don't use it as the body -- just its asset list. Reading ctx only, no mutation.
   transformHtml(_code, _id, ctx) {
     const rel = ctx.pageData.relativePath
-    if (rel.startsWith('posts/') && ctx.content) renderedPosts.set(slug(rel), ctx.content)
+    if (rel.startsWith('posts/')) renderedAssets.set(slug(rel), ctx.assets ?? [])
   },
   buildEnd: async (config: SiteConfig) => {
     const feed = new Feed({
@@ -109,16 +129,15 @@ export default defineConfig({
       //get the date from the file name - all of them are in the format YYYY-MM-DD-title.md
       // @ts-ignore: Object is possibly 'undefined'
       const date = new Date(url.split('/').pop().slice(0, 10))
-      const resolved = renderedPosts.get(slug(url))
 
       feed.addItem({
         title: frontmatter.title,
         id: `${hostname}${url}`,
         link: `${hostname}${url}`,
         description: excerpt,
-        // The site's asset-resolved render (hashed img URLs), absolutized; fall back to the markdown-it
-        // render only if a post somehow wasn't captured by transformHtml.
-        content: resolved ? absolutize(resolved) : html,
+        // Article body only (createContentLoader = no site chrome), with its raw image paths rewritten
+        // to the build's hashed, absolute URLs.
+        content: fixImages(html, renderedAssets.get(slug(url)) ?? []),
         author: [
           {
             name: 'Chris Pelatari',
