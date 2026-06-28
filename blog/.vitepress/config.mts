@@ -11,33 +11,23 @@ const hostname: string = 'https://chris.pelatari.com'
 const slug = (p: string) =>
   p.replace(/^\//, '').replace(/\.(md|html)$/i, '').replace(/\/index$/i, '').replace(/\/$/, '')
 
-// Per-post resolved asset URLs, captured from VitePress's own build (see transformHtml). The feed body
-// comes from createContentLoader (markdown-it -- the article only, no site chrome), but that renders
-// BEFORE Vite hashes assets, so its <img src> are raw source paths (./images/foo.png) that 404 against
-// the hashed build output (/assets/foo.HASH.png). Two render engines, one disconnect. We rewrite just
-// those img URLs to the hashed, absolute ones the browser gets -- without dragging in nav/footer/etc.
-const renderedAssets = new Map<string, string[]>()
+// Syndicated content needs absolute URLs; VitePress emits root-relative /assets (hashed) and /images
+// (public). Targeted so external (http) and protocol-relative (//) URLs are left untouched.
+const absolutize = (h: string) =>
+  h.replaceAll('"/assets/', `"${hostname}/assets/`).replaceAll('"/images/', `"${hostname}/images/`)
 
-// A built asset filename is "<name>.<hash>.<ext>"; drop the hash segment to recover "<name>.<ext>".
-const dehash = (file: string) => {
-  const p = file.split('.')
-  return p.length >= 3 ? [...p.slice(0, -2), p[p.length - 1]].join('.') : file
-}
-const fileName = (url: string) => (url.split('/').pop() ?? '').split('?')[0]
-
-// Rewrite the article body's <img src> to the build's hashed + absolute URLs, matched by filename.
-// External absolute images (e.g. old WordPress http) have no asset entry and are left untouched.
-const fixImages = (html: string, assets: string[]): string => {
-  if (!assets.length) return html
-  const byName = new Map<string, string>()
-  for (const a of assets) byName.set(dehash(fileName(a)), a.startsWith('http') ? a : `${hostname}${a}`)
-  const root = parse(html)
-  for (const img of root.querySelectorAll('img')) {
-    const src = img.getAttribute('src')
-    const hit = src ? byName.get(fileName(src)) : undefined
-    if (hit) img.setAttribute('src', hit)
-  }
-  return root.toString()
+// Each post's whole rendered page, captured from VitePress's OWN render (see transformHtml) -- so its
+// <img src> are the Vite-hashed URLs the browser gets, not createContentLoader's pre-bundle source
+// paths (two render engines were the disconnect). ctx.content is the entire page (nav/footer/search),
+// so we extract just the article: the post component's own root (.VPPage, from theme/components/
+// post.vue), minus its title/date/permalink meta. One render, one semantic selector -- no second
+// markdown pass, no asset correlation.
+const renderedPages = new Map<string, string>()
+const articleFrom = (rendered: string): string | null => {
+  const page = parse(rendered).querySelector('.VPPage')
+  if (!page) return null
+  page.querySelectorAll('.text-h3, .text-overline, .text-caption').forEach((e) => e.remove())
+  return page.innerHTML
 }
 
 // https://vitepress.dev/reference/site-config
@@ -92,12 +82,11 @@ export default defineConfig({
   cleanUrls: true,
   srcExclude: ['**/README.md', '**/TODO.md', '**/drafts/**'],
   appearance: 'dark',
-  // Capture each post's resolved asset URLs (Vite-hashed) so the feed can rewrite the article body's
-  // raw image paths to the real ones. ctx.content is the WHOLE rendered page (nav/footer/etc.), so we
-  // deliberately don't use it as the body -- just its asset list. Reading ctx only, no mutation.
+  // Capture each post's rendered page from VitePress's own render (asset URLs already Vite-hashed);
+  // the article is pulled out of it in buildEnd. Reading ctx only, no mutation.
   transformHtml(_code, _id, ctx) {
     const rel = ctx.pageData.relativePath
-    if (rel.startsWith('posts/')) renderedAssets.set(slug(rel), ctx.assets ?? [])
+    if (rel.startsWith('posts/') && ctx.content) renderedPages.set(slug(rel), ctx.content)
   },
   buildEnd: async (config: SiteConfig) => {
     const feed = new Feed({
@@ -129,15 +118,16 @@ export default defineConfig({
       //get the date from the file name - all of them are in the format YYYY-MM-DD-title.md
       // @ts-ignore: Object is possibly 'undefined'
       const date = new Date(url.split('/').pop().slice(0, 10))
+      const article = articleFrom(renderedPages.get(slug(url)) ?? '')
 
       feed.addItem({
         title: frontmatter.title,
         id: `${hostname}${url}`,
         link: `${hostname}${url}`,
         description: excerpt,
-        // Article body only (createContentLoader = no site chrome), with its raw image paths rewritten
-        // to the build's hashed, absolute URLs.
-        content: fixImages(html, renderedAssets.get(slug(url)) ?? []),
+        // The article extracted from VitePress's own rendered page (Vite-hashed img URLs), absolutized;
+        // fall back to the markdown-it render only if a post wasn't captured / had no .VPPage.
+        content: article ? absolutize(article) : html,
         author: [
           {
             name: 'Chris Pelatari',
