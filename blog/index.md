@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Latest Post
-      link: /posts/2026-06-07-journal-this-generalized-and-dogfooded
+      link: /posts/2026-07-11-this-is-what-uat-looks-like
     - theme: alt
       text: Archive
       link: /archive 
@@ -18,8 +18,8 @@ features:
     details: w00t! First post!
     link: /posts/2003-02-07-WOOT-FIRST-POST
   - title: How it's going
-    details: topology-journal becomes journal-this — generalized, tested, and dogfooded into its own repo
-    link: /posts/2026-06-07-journal-this-generalized-and-dogfooded
+    details: This is what UAT looks like.
+    link: /posts/2026-07-11-this-is-what-uat-looks-like
   - title: How it once was
     details: Andre 3 stacks in NY
     link: /posts/2008-11-22-andre-3-stacks-in-ny
