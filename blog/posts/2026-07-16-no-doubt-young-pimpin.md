@@ -21,11 +21,16 @@ The bad news is she's gone. You had a lot of difficult days but you faced every 
 
 ## You stubborn little shit.
 
-Nonetheless I'm quite proud of you. you showed up, you did the absolute best you could, whatever that meant that day, did you kept your word. that's what I'm most proud of. and you did it for the right reasons.
+Nonetheless I'm quite proud of you. you showed up, you did the absolute best you could, whatever that meant that day. 
+
+> you kept your word. that's what I'm most proud of. 
+
+and you did it for the right reasons.
 
 but the good news, oh man the good news made it so fucking worth it.
 
 ![Under the moon](/assets/images/under_the_moon.png)
+
 ## You drank from a cup and tasted  ambrosia that most men never get to taste 
 
 and you sipped it with gratitude for 10 years my boy. y'all were really there for each other. no matter what. she was your queen👸 
