@@ -52,4 +52,4 @@ ciao!
 
 🏴‍☠️
 
-PS: PostXING works on an Android now, and iPhone, but it's now called Writeous Plume. I'd explain more but you wouldn't believe me.
+PS: PostXING works on an Android now, and iPhone, but it's called Writeous Plume. I'd explain more but you wouldn't believe me.
