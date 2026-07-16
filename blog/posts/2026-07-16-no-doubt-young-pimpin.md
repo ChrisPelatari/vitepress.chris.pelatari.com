@@ -25,12 +25,12 @@ Nonetheless I'm quite proud of you. you showed up, you did the absolute best you
 
 but the good news, oh man the good news made it so fucking worth it.
 
-![Under the moon](/blog/assets/images/under_the_moon.png)
+![Under the moon](/assets/images/under_the_moon.png)
 ## You drank from a cup and tasted  ambrosia that most men never get to taste 
 
 and you sipped it with gratitude for 10 years my boy. y'all were really there for each other. no matter what. she was your queen👸 
 
-![on the left the cute one, next to the lucky one](/blog//assets/images/WE_OWN_THE_NIGHT.png)
+![on the left the cute one, next to the lucky one](/assets/images/WE_OWN_THE_NIGHT.png)
 
 she helped you learn how to walk again from another motorcycle accident. And then a year later she got cancer and you had to help *her* walk. and you saw her fight harder than the toughest mutherfucker you've ever seen. you you demanded the best from her doctors, but more importantly yourself. and every time you pray you hear her whisper back just a little bit. you pray a lot. Now all I need you to ask of me, young man, is to keep being Worthy of that honor as I grow older.
 
@@ -42,6 +42,6 @@ I love you like a fat kid love cake.
 
 In the name of Jennifer King Pelatari, long live the queen 👸
 
-![two snuggle pups](/blog/assets/images/WE_OWN_THE_NIGHT_PUPS.png)
+![two snuggle pups](/assets/images/WE_OWN_THE_NIGHT_PUPS.png)
 
 🏴‍☠️
