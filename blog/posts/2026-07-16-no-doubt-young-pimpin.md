@@ -2,7 +2,6 @@
 title: "No doubt young Pimpin"
 author: "ChrisPelatari"
 date: 2026-07-16
-draft: true
 tags: [blue_fenix, productions, PRI, MonteCarlo, risk, energy, geophysics, king_is_the_queen]
 description: An old man hears from his past self and has good news 
 ---
