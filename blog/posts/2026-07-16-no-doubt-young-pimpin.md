@@ -2,7 +2,7 @@
 title: "No doubt young Pimpin"
 author: "ChrisPelatari"
 date: 2026-07-16
-draft: false
+draft: true
 tags: [blue_fenix, productions, PRI, MonteCarlo, risk, energy, geophysics, king_is_the_queen]
 description: An old man hears from his past self and has good news 
 ---
@@ -29,6 +29,10 @@ but the good news, oh man the good news made it so fucking worth it.
 
 and you sipped on it in gratitude for 10 years my boy. y'all were really there for each other. no matter what. she was your queen👸 she helped you learn how to walk again from another motorcycle accident. And then a year later she got cancer and you had to help *her* walk. and you saw her fight harder than the toughest mutherfucker you've ever seen. you you demanded the best from her doctors, but more importantly yourself. and every time you pray you hear her whisper back just a little bit. you pray a lot. Now all I need you to ask of me, young man, is to keep being Worthy of that honor as I grow older.
 
-now get back to work. I need you to get that next algorithm right because I fucked it up again and had to fix it *again* 20 years later. how about that? no I mean literally the same issue. you did get it right after all it didn't do that having a conversation with the geophysicist who invented that algorithm. you did get it right by the way. even he said so. thank you boy. I love you like a fat kid love cake.
+now get back to work. I need you to get that next algorithm right because I fucked it up again and had to fix it *again* 20 years later. how about that? no I mean literally the same issue. only this time in a language called Swift. it only took having a conversation with the geophysicist who invented that algorithm to understand fully. 
+
+## you did get it right by the way. even he said so. thank you boy. 
+
+I love you like a fat kid love cake.
 
 long live the queen 👸
