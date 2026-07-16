@@ -45,3 +45,5 @@ In the name of Jennifer King Pelatari, long live the queen 👸
 ![two snuggle pups](/assets/images/WE_OWN_THE_NIGHT_PUPS.png)
 
 🏴‍☠️
+
+PS: PostXING works on an Android now, and iPhone, but it's now called Writeous Plume. I'd explain more but you wouldn't believe me.
