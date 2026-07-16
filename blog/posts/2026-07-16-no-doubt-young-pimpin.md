@@ -47,6 +47,8 @@ I love you like a fat kid love cake.
 
 In the name of Jennifer King Pelatari, long live the queen 👸
 
+ciao!
+
 ![two snuggle pups](/assets/images/WE_OWN_THE_NIGHT_PUPS.png)
 
 🏴‍☠️
