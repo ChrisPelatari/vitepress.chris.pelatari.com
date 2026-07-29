@@ -8,7 +8,7 @@ description: Two women in one convertible got scared of two completely different
 
 # Two Entirely Different Things
 
-I called Janet the other day and asked her to tell me a story. She said *"oh, I got a good one"* — and she was right.
+I called Janet ealier tonight and asked her to tell me a story. She said *"oh, I got a good one"* — and she was right.
 
 What follows is hers, transcribed off the call and lightly cleaned for reading. The tangents are load-bearing. They stay in. Where I couldn't keep my mouth shut, I'm marked.
 
@@ -59,14 +59,13 @@ And I said, *"You talking about that bum on the corner?"*
 I said, *"I was talking about the naked man up on the second floor window."*
 
 ---
-
-> **Me:** Look at that Johnson you were seeing — flying at you from the second story!
+> **Me:** You were looking at that Johnson you were seeing — flying at you from the second story!
 
 All these months, she's worried about the bum. And I was worried about the naked guy standing up there.
 
 We were seeing two entirely different things — and they both were scary.
 
-Isn't it crazy, what a little bit of perspective gives you? A different interpretation of the same event, at the same time.
+> **Me:** Isn't it crazy, what a little bit of perspective gives you? A different interpretation of the same event, at the same time?
 
 I used to tell that story to Jennifer and she would just laugh and laugh and laugh. She just thought that was fun. And it was.
 
@@ -80,7 +79,7 @@ So there you are.
 
 ## Why I'm posting this
 
-Two people in the same car, on the same street, in the same second. Same danger, same adrenaline, same *hurry hurry hurry* — and completely different threat models. Neither one wrong. Neither one aware the other was solving a different problem.
+Two people in the same car, on the same street, in the same second. Same danger, same adrenaline, same *hurry hurry hurry* — and completely different threat models. Neither one wrong. Neither one aware the other was solving a different problem. Same store, different receipts. 
 
 It took a party months later for the bug report to surface at all.
 
@@ -88,4 +87,4 @@ I spend my working life on systems where two components agree on the outcome and
 
 *"Isn't it crazy, what a little bit of perspective gives you."*
 
-Thanks, Janet. That's one of your favorites. Now it's one of mine.
+Thanks, Mama Janet. That's one of your favorites, was one of Jen's; Now it's one of mine. Long live the Queen. 👸🏻
