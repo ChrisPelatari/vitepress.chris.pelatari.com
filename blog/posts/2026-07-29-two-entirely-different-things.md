@@ -12,6 +12,13 @@ I called Janet ealier tonight and asked her to tell me a story. She said *"oh, I
 
 What follows is hers, transcribed off the call and lightly cleaned for reading. The tangents are load-bearing. They stay in. Where I couldn't keep my mouth shut, I'm marked.
 
+🎙️  **Janet tells it herself — 4:52.** Everything below is this recording, transcribed.
+
+<audio controls preload="metadata" style="width:100%;max-width:38rem;">
+  <source src="/audio/janet-canty-galveston.m4a" type="audio/mp4">
+  Your browser can't play this one — <a href="/audio/janet-canty-galveston.m4a">download the audio</a> instead.
+</audio>
+
 ---
 
 Okay, all right, let me — oh, I got a good one. Okay, this is a good story.
